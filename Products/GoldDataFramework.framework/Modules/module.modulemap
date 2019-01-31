@@ -1,0 +1,6 @@
+framework module GoldDataFramework {
+  umbrella header "GoldDataFramework.h"
+
+  export *
+  module * { export * }
+}

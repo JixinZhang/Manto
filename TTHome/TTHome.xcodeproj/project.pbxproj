@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		78C906CE2202CBD5006D4B54 /* TTHomeAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78C906CF2202CBD5006D4B54 /* Build configuration list for PBXAggregateTarget "TTHomeAggregate" */;
+			buildPhases = (
+				78C906D22202CBE5006D4B54 /* ShellScript */,
+				78C906D32202CBF3006D4B54 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TTHomeAggregate;
+			productName = TTHomeAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		78C906A72202C8DA006D4B54 /* TTHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9069D2202C8DA006D4B54 /* TTHome.framework */; };
+		78C906AC2202C8DA006D4B54 /* TTHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906AB2202C8DA006D4B54 /* TTHomeTests.m */; };
+		78C906AE2202C8DA006D4B54 /* TTHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906A02202C8DA006D4B54 /* TTHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C906DB2202CC5E006D4B54 /* GoldBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D52202CC5D006D4B54 /* GoldBaseFramework.framework */; };
+		78C906DC2202CC5E006D4B54 /* GoldRPCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D62202CC5D006D4B54 /* GoldRPCFramework.framework */; };
+		78C906DD2202CC5E006D4B54 /* MMobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D72202CC5E006D4B54 /* MMobileFramework.framework */; };
+		78C906DE2202CC5E006D4B54 /* MRouterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D82202CC5E006D4B54 /* MRouterFramework.framework */; };
+		78C906DF2202CC5E006D4B54 /* GoldLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D92202CC5E006D4B54 /* GoldLogFramework.framework */; };
+		78C906E02202CC5E006D4B54 /* GoldNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906DA2202CC5E006D4B54 /* GoldNetworkFramework.framework */; };
+		78C906E72202CCDF006D4B54 /* HomeAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906E52202CCDF006D4B54 /* HomeAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C906E82202CCDF006D4B54 /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906E62202CCDF006D4B54 /* HomeAppDelegate.m */; };
+		78C906EE2202CDA9006D4B54 /* WSCNTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906EA2202CDA8006D4B54 /* WSCNTabBar.h */; };
+		78C906EF2202CDA9006D4B54 /* WSCNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906EB2202CDA8006D4B54 /* WSCNTabBar.m */; };
+		78C906F02202CDA9006D4B54 /* WSCNTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906EC2202CDA9006D4B54 /* WSCNTabBarItem.m */; };
+		78C906F12202CDA9006D4B54 /* WSCNTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906ED2202CDA9006D4B54 /* WSCNTabBarItem.h */; };
+		78C906F82202CFA7006D4B54 /* TTTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906F62202CFA7006D4B54 /* TTTabBarController.h */; };
+		78C906F92202CFA7006D4B54 /* TTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906F72202CFA7006D4B54 /* TTTabBarController.m */; };
+		78C906FD2202D34E006D4B54 /* TTHomeTabResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906FB2202D34E006D4B54 /* TTHomeTabResource.h */; };
+		78C906FE2202D34E006D4B54 /* TTHomeTabResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906FC2202D34E006D4B54 /* TTHomeTabResource.m */; };
+		78C907012202D37E006D4B54 /* TTOnTabServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906FF2202D37E006D4B54 /* TTOnTabServiceImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C907022202D37E006D4B54 /* TTOnTabServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C907002202D37E006D4B54 /* TTOnTabServiceImpl.m */; };
+		78C907052202D59E006D4B54 /* WSCNTabBarItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C907032202D59E006D4B54 /* WSCNTabBarItemModel.h */; };
+		78C907062202D59E006D4B54 /* WSCNTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C907042202D59E006D4B54 /* WSCNTabBarItemModel.m */; };
+		78C907082202D5C2006D4B54 /* MVendorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C907072202D5C1006D4B54 /* MVendorFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78C906A82202C8DA006D4B54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C906942202C8DA006D4B54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78C9069C2202C8DA006D4B54;
+			remoteInfo = TTHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78C9069D2202C8DA006D4B54 /* TTHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C906A02202C8DA006D4B54 /* TTHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTHome.h; sourceTree = "<group>"; };
+		78C906A12202C8DA006D4B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C906A62202C8DA006D4B54 /* TTHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C906AB2202C8DA006D4B54 /* TTHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTHomeTests.m; sourceTree = "<group>"; };
+		78C906AD2202C8DA006D4B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C906D52202CC5D006D4B54 /* GoldBaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldBaseFramework.framework; path = ../Products/GoldBaseFramework.framework; sourceTree = "<group>"; };
+		78C906D62202CC5D006D4B54 /* GoldRPCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldRPCFramework.framework; path = ../Products/GoldRPCFramework.framework; sourceTree = "<group>"; };
+		78C906D72202CC5E006D4B54 /* MMobileFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMobileFramework.framework; path = ../Products/MMobileFramework.framework; sourceTree = "<group>"; };
+		78C906D82202CC5E006D4B54 /* MRouterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRouterFramework.framework; path = ../Products/MRouterFramework.framework; sourceTree = "<group>"; };
+		78C906D92202CC5E006D4B54 /* GoldLogFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldLogFramework.framework; path = ../Products/GoldLogFramework.framework; sourceTree = "<group>"; };
+		78C906DA2202CC5E006D4B54 /* GoldNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldNetworkFramework.framework; path = ../Products/GoldNetworkFramework.framework; sourceTree = "<group>"; };
+		78C906E52202CCDF006D4B54 /* HomeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeAppDelegate.h; sourceTree = "<group>"; };
+		78C906E62202CCDF006D4B54 /* HomeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeAppDelegate.m; sourceTree = "<group>"; };
+		78C906E92202CD10006D4B54 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		78C906EA2202CDA8006D4B54 /* WSCNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCNTabBar.h; sourceTree = "<group>"; };
+		78C906EB2202CDA8006D4B54 /* WSCNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCNTabBar.m; sourceTree = "<group>"; };
+		78C906EC2202CDA9006D4B54 /* WSCNTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCNTabBarItem.m; sourceTree = "<group>"; };
+		78C906ED2202CDA9006D4B54 /* WSCNTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCNTabBarItem.h; sourceTree = "<group>"; };
+		78C906F62202CFA7006D4B54 /* TTTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTabBarController.h; sourceTree = "<group>"; };
+		78C906F72202CFA7006D4B54 /* TTTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTabBarController.m; sourceTree = "<group>"; };
+		78C906FB2202D34E006D4B54 /* TTHomeTabResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TTHomeTabResource.h; path = TTHome/Apps/TTHomeTabResource.h; sourceTree = SOURCE_ROOT; };
+		78C906FC2202D34E006D4B54 /* TTHomeTabResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TTHomeTabResource.m; path = TTHome/Apps/TTHomeTabResource.m; sourceTree = SOURCE_ROOT; };
+		78C906FF2202D37E006D4B54 /* TTOnTabServiceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTOnTabServiceImpl.h; sourceTree = "<group>"; };
+		78C907002202D37E006D4B54 /* TTOnTabServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTOnTabServiceImpl.m; sourceTree = "<group>"; };
+		78C907032202D59E006D4B54 /* WSCNTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCNTabBarItemModel.h; sourceTree = "<group>"; };
+		78C907042202D59E006D4B54 /* WSCNTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCNTabBarItemModel.m; sourceTree = "<group>"; };
+		78C907072202D5C1006D4B54 /* MVendorFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVendorFramework.framework; path = ../Products/MVendorFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78C9069A2202C8DA006D4B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C907082202D5C2006D4B54 /* MVendorFramework.framework in Frameworks */,
+				78C906DB2202CC5E006D4B54 /* GoldBaseFramework.framework in Frameworks */,
+				78C906DC2202CC5E006D4B54 /* GoldRPCFramework.framework in Frameworks */,
+				78C906DD2202CC5E006D4B54 /* MMobileFramework.framework in Frameworks */,
+				78C906DE2202CC5E006D4B54 /* MRouterFramework.framework in Frameworks */,
+				78C906DF2202CC5E006D4B54 /* GoldLogFramework.framework in Frameworks */,
+				78C906E02202CC5E006D4B54 /* GoldNetworkFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C906A32202C8DA006D4B54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C906A72202C8DA006D4B54 /* TTHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78C906932202C8DA006D4B54 = {
+			isa = PBXGroup;
+			children = (
+				78C9069F2202C8DA006D4B54 /* TTHome */,
+				78C906AA2202C8DA006D4B54 /* TTHomeTests */,
+				78C9069E2202C8DA006D4B54 /* Products */,
+				78C906D42202CC5D006D4B54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78C9069E2202C8DA006D4B54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C9069D2202C8DA006D4B54 /* TTHome.framework */,
+				78C906A62202C8DA006D4B54 /* TTHomeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C9069F2202C8DA006D4B54 /* TTHome */ = {
+			isa = PBXGroup;
+			children = (
+				78C906FA2202D32B006D4B54 /* Service */,
+				78C906E32202CCB4006D4B54 /* View */,
+				78C906E22202CC97006D4B54 /* Model */,
+				78C906E12202CC84006D4B54 /* Delegate */,
+				78C906E42202CCBE006D4B54 /* Apps */,
+				78C906A02202C8DA006D4B54 /* TTHome.h */,
+				78C906A12202C8DA006D4B54 /* Info.plist */,
+				78C906E92202CD10006D4B54 /* PrefixHeader.pch */,
+			);
+			path = TTHome;
+			sourceTree = "<group>";
+		};
+		78C906AA2202C8DA006D4B54 /* TTHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				78C906AB2202C8DA006D4B54 /* TTHomeTests.m */,
+				78C906AD2202C8DA006D4B54 /* Info.plist */,
+			);
+			path = TTHomeTests;
+			sourceTree = "<group>";
+		};
+		78C906D42202CC5D006D4B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C907072202D5C1006D4B54 /* MVendorFramework.framework */,
+				78C906D52202CC5D006D4B54 /* GoldBaseFramework.framework */,
+				78C906D92202CC5E006D4B54 /* GoldLogFramework.framework */,
+				78C906DA2202CC5E006D4B54 /* GoldNetworkFramework.framework */,
+				78C906D62202CC5D006D4B54 /* GoldRPCFramework.framework */,
+				78C906D72202CC5E006D4B54 /* MMobileFramework.framework */,
+				78C906D82202CC5E006D4B54 /* MRouterFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C906E12202CC84006D4B54 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				78C906E52202CCDF006D4B54 /* HomeAppDelegate.h */,
+				78C906E62202CCDF006D4B54 /* HomeAppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		78C906E22202CC97006D4B54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78C907032202D59E006D4B54 /* WSCNTabBarItemModel.h */,
+				78C907042202D59E006D4B54 /* WSCNTabBarItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C906E32202CCB4006D4B54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78C906EA2202CDA8006D4B54 /* WSCNTabBar.h */,
+				78C906EB2202CDA8006D4B54 /* WSCNTabBar.m */,
+				78C906ED2202CDA9006D4B54 /* WSCNTabBarItem.h */,
+				78C906EC2202CDA9006D4B54 /* WSCNTabBarItem.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C906E42202CCBE006D4B54 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				78C906FB2202D34E006D4B54 /* TTHomeTabResource.h */,
+				78C906FC2202D34E006D4B54 /* TTHomeTabResource.m */,
+				78C906F62202CFA7006D4B54 /* TTTabBarController.h */,
+				78C906F72202CFA7006D4B54 /* TTTabBarController.m */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		78C906FA2202D32B006D4B54 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				78C906FF2202D37E006D4B54 /* TTOnTabServiceImpl.h */,
+				78C907002202D37E006D4B54 /* TTOnTabServiceImpl.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		78C906982202C8DA006D4B54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C906F12202CDA9006D4B54 /* WSCNTabBarItem.h in Headers */,
+				78C906F82202CFA7006D4B54 /* TTTabBarController.h in Headers */,
+				78C907052202D59E006D4B54 /* WSCNTabBarItemModel.h in Headers */,
+				78C906EE2202CDA9006D4B54 /* WSCNTabBar.h in Headers */,
+				78C906E72202CCDF006D4B54 /* HomeAppDelegate.h in Headers */,
+				78C907012202D37E006D4B54 /* TTOnTabServiceImpl.h in Headers */,
+				78C906AE2202C8DA006D4B54 /* TTHome.h in Headers */,
+				78C906FD2202D34E006D4B54 /* TTHomeTabResource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		78C9069C2202C8DA006D4B54 /* TTHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C906B12202C8DA006D4B54 /* Build configuration list for PBXNativeTarget "TTHome" */;
+			buildPhases = (
+				78C906982202C8DA006D4B54 /* Headers */,
+				78C906992202C8DA006D4B54 /* Sources */,
+				78C9069A2202C8DA006D4B54 /* Frameworks */,
+				78C9069B2202C8DA006D4B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTHome;
+			productName = TTHome;
+			productReference = 78C9069D2202C8DA006D4B54 /* TTHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C906A52202C8DA006D4B54 /* TTHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78C906B42202C8DA006D4B54 /* Build configuration list for PBXNativeTarget "TTHomeTests" */;
+			buildPhases = (
+				78C906A22202C8DA006D4B54 /* Sources */,
+				78C906A32202C8DA006D4B54 /* Frameworks */,
+				78C906A42202C8DA006D4B54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C906A92202C8DA006D4B54 /* PBXTargetDependency */,
+			);
+			name = TTHomeTests;
+			productName = TTHomeTests;
+			productReference = 78C906A62202C8DA006D4B54 /* TTHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78C906942202C8DA006D4B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AlexZhang;
+				TargetAttributes = {
+					78C9069C2202C8DA006D4B54 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					78C906A52202C8DA006D4B54 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					78C906CE2202CBD5006D4B54 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 78C906972202C8DA006D4B54 /* Build configuration list for PBXProject "TTHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78C906932202C8DA006D4B54;
+			productRefGroup = 78C9069E2202C8DA006D4B54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78C9069C2202C8DA006D4B54 /* TTHome */,
+				78C906A52202C8DA006D4B54 /* TTHomeTests */,
+				78C906CE2202CBD5006D4B54 /* TTHomeAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78C9069B2202C8DA006D4B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C906A42202C8DA006D4B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C906D22202CBE5006D4B54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator build\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nrm -r \"${WRK_DIR}\"\n#open \"${INSTALL_DIR}\"\n";
+		};
+		78C906D32202CBF3006D4B54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# copy the framework to root product category\nFMK_NAME=${PROJECT_NAME}\nINSTALL_SOURCE_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.framework\n# Cleaning the oldest.\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nopen \"${INSTALL_TARGET_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78C906992202C8DA006D4B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C907022202D37E006D4B54 /* TTOnTabServiceImpl.m in Sources */,
+				78C906EF2202CDA9006D4B54 /* WSCNTabBar.m in Sources */,
+				78C906FE2202D34E006D4B54 /* TTHomeTabResource.m in Sources */,
+				78C906F02202CDA9006D4B54 /* WSCNTabBarItem.m in Sources */,
+				78C907062202D59E006D4B54 /* WSCNTabBarItemModel.m in Sources */,
+				78C906E82202CCDF006D4B54 /* HomeAppDelegate.m in Sources */,
+				78C906F92202CFA7006D4B54 /* TTTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78C906A22202C8DA006D4B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C906AC2202C8DA006D4B54 /* TTHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78C906A92202C8DA006D4B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78C9069C2202C8DA006D4B54 /* TTHome */;
+			targetProxy = 78C906A82202C8DA006D4B54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78C906AF2202C8DA006D4B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78C906B02202C8DA006D4B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78C906B22202C8DA006D4B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Products";
+				GCC_PREFIX_HEADER = TTHome/PrefixHeader.pch;
+				INFOPLIST_FILE = TTHome/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTHome;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C906B32202C8DA006D4B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Products";
+				GCC_PREFIX_HEADER = TTHome/PrefixHeader.pch;
+				INFOPLIST_FILE = TTHome/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTHome;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C906B52202C8DA006D4B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78C906B62202C8DA006D4B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78C906D02202CBD5006D4B54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78C906D12202CBD5006D4B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78C906972202C8DA006D4B54 /* Build configuration list for PBXProject "TTHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C906AF2202C8DA006D4B54 /* Debug */,
+				78C906B02202C8DA006D4B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C906B12202C8DA006D4B54 /* Build configuration list for PBXNativeTarget "TTHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C906B22202C8DA006D4B54 /* Debug */,
+				78C906B32202C8DA006D4B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C906B42202C8DA006D4B54 /* Build configuration list for PBXNativeTarget "TTHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C906B52202C8DA006D4B54 /* Debug */,
+				78C906B62202C8DA006D4B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78C906CF2202CBD5006D4B54 /* Build configuration list for PBXAggregateTarget "TTHomeAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C906D02202CBD5006D4B54 /* Debug */,
+				78C906D12202CBD5006D4B54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78C906942202C8DA006D4B54 /* Project object */;
+}

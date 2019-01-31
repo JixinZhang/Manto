@@ -7,68 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		787ADA7421F1E697003A17CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 787ADA7321F1E697003A17CF /* AppDelegate.m */; };
-		787ADA7721F1E697003A17CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787ADA7621F1E697003A17CF /* ViewController.m */; };
-		787ADA7A21F1E698003A17CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787ADA7821F1E698003A17CF /* Main.storyboard */; };
-		787ADA7C21F1E69B003A17CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787ADA7B21F1E69B003A17CF /* Assets.xcassets */; };
-		787ADA7F21F1E69B003A17CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787ADA7D21F1E69B003A17CF /* LaunchScreen.storyboard */; };
-		787ADA8221F1E69B003A17CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 787ADA8121F1E69B003A17CF /* main.m */; };
-		787ADA8C21F1E69B003A17CF /* ToutiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787ADA8B21F1E69B003A17CF /* ToutiaoTests.m */; };
-		787ADA9721F1E69B003A17CF /* ToutiaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 787ADA9621F1E69B003A17CF /* ToutiaoUITests.m */; };
+		78879D6621FAF1F40065B221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6421FAF1F40065B221 /* Main.storyboard */; };
+		78879D6821FAF1F70065B221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6721FAF1F70065B221 /* Assets.xcassets */; };
+		78879D6B21FAF1F70065B221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6921FAF1F70065B221 /* LaunchScreen.storyboard */; };
+		78879D6E21FAF1F70065B221 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78879D6D21FAF1F70065B221 /* main.mm */; };
+		78879D7821FAF1F70065B221 /* TouTiaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78879D7721FAF1F70065B221 /* TouTiaoTests.m */; };
+		78879D8321FAF1F70065B221 /* TouTiaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78879D8221FAF1F70065B221 /* TouTiaoUITests.m */; };
+		78879D9321FAFF6A0065B221 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9121FAFF6A0065B221 /* CoreFoundation.framework */; };
+		78879D9421FAFF6A0065B221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9221FAFF6A0065B221 /* Foundation.framework */; };
+		78879DA021FAFF770065B221 /* MVendorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9521FAFF760065B221 /* MVendorFramework.framework */; };
+		78879DA121FAFF770065B221 /* GoldDataFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9621FAFF760065B221 /* GoldDataFramework.framework */; };
+		78879DA221FAFF770065B221 /* GoldNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9721FAFF760065B221 /* GoldNetworkFramework.framework */; };
+		78879DA321FAFF770065B221 /* GoldPhotoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9821FAFF760065B221 /* GoldPhotoFramework.framework */; };
+		78879DA421FAFF770065B221 /* MDebugFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9921FAFF760065B221 /* MDebugFramework.framework */; };
+		78879DA521FAFF770065B221 /* MMobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9A21FAFF760065B221 /* MMobileFramework.framework */; };
+		78879DA621FAFF770065B221 /* GoldRPCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9B21FAFF760065B221 /* GoldRPCFramework.framework */; };
+		78879DA721FAFF770065B221 /* GoldBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9C21FAFF760065B221 /* GoldBaseFramework.framework */; };
+		78879DA921FAFF770065B221 /* MRouterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9E21FAFF760065B221 /* MRouterFramework.framework */; };
+		78879DAA21FAFF770065B221 /* GoldLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9F21FAFF760065B221 /* GoldLogFramework.framework */; };
+		78C9065F2202A0A8006D4B54 /* GoldLog+Mars.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78C906542202A0A8006D4B54 /* GoldLog+Mars.mm */; };
+		78C906602202A0A8006D4B54 /* log_crypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C906582202A0A8006D4B54 /* log_crypt.cc */; };
+		78C906612202A0A8006D4B54 /* shortlink_packer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C906592202A0A8006D4B54 /* shortlink_packer.cc */; };
+		78C906622202A0A8006D4B54 /* longlink_packer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C9065A2202A0A8006D4B54 /* longlink_packer.cc */; };
+		78C906632202A0A8006D4B54 /* mars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9065B2202A0A8006D4B54 /* mars.framework */; };
+		78C906682202A15E006D4B54 /* UIViewController+Appear.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906662202A15D006D4B54 /* UIViewController+Appear.m */; };
+		78C9066A2202BD70006D4B54 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906692202BD70006D4B54 /* CoreTelephony.framework */; };
+		78C9066C2202BDF4006D4B54 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9066B2202BDF3006D4B54 /* libxml2.tbd */; };
+		78C9066E2202BDFB006D4B54 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9066D2202BDFB006D4B54 /* libz.tbd */; };
+		78C906702202BE02006D4B54 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9066F2202BE02006D4B54 /* libsqlite3.tbd */; };
+		78C906722202BE0B006D4B54 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906712202BE0B006D4B54 /* libc++.tbd */; };
+		78C906742202BE13006D4B54 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906732202BE12006D4B54 /* libicucore.tbd */; };
+		78C906782202C005006D4B54 /* BGClientDelegate+TouTiao.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906772202C005006D4B54 /* BGClientDelegate+TouTiao.m */; };
+		78C9067B2202C031006D4B54 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78C906792202C030006D4B54 /* MobileRuntime.plist */; };
+		78C9067C2202C031006D4B54 /* url_resolver.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78C9067A2202C030006D4B54 /* url_resolver.plist */; };
+		78C906802202C054006D4B54 /* wscnNight.json in Resources */ = {isa = PBXBuildFile; fileRef = 78C9067D2202C053006D4B54 /* wscnNight.json */; };
+		78C906812202C054006D4B54 /* colorNote in Resources */ = {isa = PBXBuildFile; fileRef = 78C9067E2202C053006D4B54 /* colorNote */; };
+		78C906822202C054006D4B54 /* wscnDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 78C9067F2202C054006D4B54 /* wscnDay.json */; };
+		78C906852202C083006D4B54 /* LNTheme+WSCN.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906832202C083006D4B54 /* LNTheme+WSCN.m */; };
+		78C906882202C140006D4B54 /* BGBootLoader+Boot.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906872202C140006D4B54 /* BGBootLoader+Boot.m */; };
+		78C9068C2202C406006D4B54 /* GoldWebViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9068B2202C406006D4B54 /* GoldWebViewFramework.framework */; };
+		78C9068E2202C451006D4B54 /* GoldHybridFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9068D2202C451006D4B54 /* GoldHybridFramework.framework */; };
+		78C906922202C53F006D4B54 /* TouTiaoOnStartServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906912202C53F006D4B54 /* TouTiaoOnStartServiceImpl.m */; };
+		78C9070B2202E397006D4B54 /* TTHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9070A2202E397006D4B54 /* TTHome.framework */; };
+		78C9070E2202E472006D4B54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9070D2202E472006D4B54 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		787ADA8821F1E69B003A17CF /* PBXContainerItemProxy */ = {
+		78879D7421FAF1F70065B221 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 787ADA6721F1E697003A17CF /* Project object */;
+			containerPortal = 78879D5321FAF1F40065B221 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 787ADA6E21F1E697003A17CF;
-			remoteInfo = Toutiao;
+			remoteGlobalIDString = 78879D5A21FAF1F40065B221;
+			remoteInfo = TouTiao;
 		};
-		787ADA9321F1E69B003A17CF /* PBXContainerItemProxy */ = {
+		78879D7F21FAF1F70065B221 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 787ADA6721F1E697003A17CF /* Project object */;
+			containerPortal = 78879D5321FAF1F40065B221 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 787ADA6E21F1E697003A17CF;
-			remoteInfo = Toutiao;
+			remoteGlobalIDString = 78879D5A21FAF1F40065B221;
+			remoteInfo = TouTiao;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		787ADA6F21F1E697003A17CF /* Toutiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toutiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		787ADA7221F1E697003A17CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		787ADA7321F1E697003A17CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		787ADA7521F1E697003A17CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		787ADA7621F1E697003A17CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		787ADA7921F1E698003A17CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		787ADA7B21F1E69B003A17CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		787ADA7E21F1E69B003A17CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		787ADA8021F1E69B003A17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		787ADA8121F1E69B003A17CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		787ADA8721F1E69B003A17CF /* ToutiaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToutiaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		787ADA8B21F1E69B003A17CF /* ToutiaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToutiaoTests.m; sourceTree = "<group>"; };
-		787ADA8D21F1E69B003A17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		787ADA9221F1E69B003A17CF /* ToutiaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToutiaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		787ADA9621F1E69B003A17CF /* ToutiaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToutiaoUITests.m; sourceTree = "<group>"; };
-		787ADA9821F1E69B003A17CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78879D5B21FAF1F40065B221 /* TouTiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouTiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78879D6521FAF1F40065B221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78879D6721FAF1F70065B221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78879D6A21FAF1F70065B221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78879D6C21FAF1F70065B221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78879D6D21FAF1F70065B221 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		78879D7321FAF1F70065B221 /* TouTiaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouTiaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78879D7721FAF1F70065B221 /* TouTiaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouTiaoTests.m; sourceTree = "<group>"; };
+		78879D7921FAF1F70065B221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78879D7E21FAF1F70065B221 /* TouTiaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouTiaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78879D8221FAF1F70065B221 /* TouTiaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouTiaoUITests.m; sourceTree = "<group>"; };
+		78879D8421FAF1F70065B221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78879D9121FAFF6A0065B221 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		78879D9221FAFF6A0065B221 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78879D9521FAFF760065B221 /* MVendorFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVendorFramework.framework; path = ../Products/MVendorFramework.framework; sourceTree = "<group>"; };
+		78879D9621FAFF760065B221 /* GoldDataFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldDataFramework.framework; path = ../Products/GoldDataFramework.framework; sourceTree = "<group>"; };
+		78879D9721FAFF760065B221 /* GoldNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldNetworkFramework.framework; path = ../Products/GoldNetworkFramework.framework; sourceTree = "<group>"; };
+		78879D9821FAFF760065B221 /* GoldPhotoFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldPhotoFramework.framework; path = ../Products/GoldPhotoFramework.framework; sourceTree = "<group>"; };
+		78879D9921FAFF760065B221 /* MDebugFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MDebugFramework.framework; path = ../Products/MDebugFramework.framework; sourceTree = "<group>"; };
+		78879D9A21FAFF760065B221 /* MMobileFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMobileFramework.framework; path = ../Products/MMobileFramework.framework; sourceTree = "<group>"; };
+		78879D9B21FAFF760065B221 /* GoldRPCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldRPCFramework.framework; path = ../Products/GoldRPCFramework.framework; sourceTree = "<group>"; };
+		78879D9C21FAFF760065B221 /* GoldBaseFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldBaseFramework.framework; path = ../Products/GoldBaseFramework.framework; sourceTree = "<group>"; };
+		78879D9E21FAFF760065B221 /* MRouterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRouterFramework.framework; path = ../Products/MRouterFramework.framework; sourceTree = "<group>"; };
+		78879D9F21FAFF760065B221 /* GoldLogFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldLogFramework.framework; path = ../Products/GoldLogFramework.framework; sourceTree = "<group>"; };
+		78879DAB21FB00580065B221 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		78C906542202A0A8006D4B54 /* GoldLog+Mars.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GoldLog+Mars.mm"; sourceTree = "<group>"; };
+		78C906552202A0A8006D4B54 /* GoldLog+Mars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoldLog+Mars.h"; sourceTree = "<group>"; };
+		78C906572202A0A8006D4B54 /* shortlink_packer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortlink_packer.h; sourceTree = "<group>"; };
+		78C906582202A0A8006D4B54 /* log_crypt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log_crypt.cc; sourceTree = "<group>"; };
+		78C906592202A0A8006D4B54 /* shortlink_packer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shortlink_packer.cc; sourceTree = "<group>"; };
+		78C9065A2202A0A8006D4B54 /* longlink_packer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longlink_packer.cc; sourceTree = "<group>"; };
+		78C9065B2202A0A8006D4B54 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mars.framework; sourceTree = "<group>"; };
+		78C9065C2202A0A8006D4B54 /* longlink_packer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longlink_packer.h; sourceTree = "<group>"; };
+		78C9065D2202A0A8006D4B54 /* log_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log_crypt.h; sourceTree = "<group>"; };
+		78C9065E2202A0A8006D4B54 /* stnproto_logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stnproto_logic.h; sourceTree = "<group>"; };
+		78C906662202A15D006D4B54 /* UIViewController+Appear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Appear.m"; sourceTree = "<group>"; };
+		78C906672202A15E006D4B54 /* UIViewController+Appear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Appear.h"; sourceTree = "<group>"; };
+		78C906692202BD70006D4B54 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		78C9066B2202BDF3006D4B54 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		78C9066D2202BDFB006D4B54 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		78C9066F2202BE02006D4B54 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		78C906712202BE0B006D4B54 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		78C906732202BE12006D4B54 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		78C906762202C005006D4B54 /* BGClientDelegate+TouTiao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGClientDelegate+TouTiao.h"; sourceTree = "<group>"; };
+		78C906772202C005006D4B54 /* BGClientDelegate+TouTiao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BGClientDelegate+TouTiao.m"; sourceTree = "<group>"; };
+		78C906792202C030006D4B54 /* MobileRuntime.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MobileRuntime.plist; sourceTree = "<group>"; };
+		78C9067A2202C030006D4B54 /* url_resolver.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = url_resolver.plist; sourceTree = "<group>"; };
+		78C9067D2202C053006D4B54 /* wscnNight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wscnNight.json; sourceTree = "<group>"; };
+		78C9067E2202C053006D4B54 /* colorNote */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colorNote; sourceTree = "<group>"; };
+		78C9067F2202C054006D4B54 /* wscnDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wscnDay.json; sourceTree = "<group>"; };
+		78C906832202C083006D4B54 /* LNTheme+WSCN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LNTheme+WSCN.m"; sourceTree = "<group>"; };
+		78C906842202C083006D4B54 /* LNTheme+WSCN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LNTheme+WSCN.h"; sourceTree = "<group>"; };
+		78C906862202C140006D4B54 /* BGBootLoader+Boot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BGBootLoader+Boot.h"; sourceTree = "<group>"; };
+		78C906872202C140006D4B54 /* BGBootLoader+Boot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BGBootLoader+Boot.m"; sourceTree = "<group>"; };
+		78C9068B2202C406006D4B54 /* GoldWebViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldWebViewFramework.framework; path = ../Products/GoldWebViewFramework.framework; sourceTree = "<group>"; };
+		78C9068D2202C451006D4B54 /* GoldHybridFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldHybridFramework.framework; path = ../Products/GoldHybridFramework.framework; sourceTree = "<group>"; };
+		78C906902202C53F006D4B54 /* TouTiaoOnStartServiceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouTiaoOnStartServiceImpl.h; sourceTree = "<group>"; };
+		78C906912202C53F006D4B54 /* TouTiaoOnStartServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouTiaoOnStartServiceImpl.m; sourceTree = "<group>"; };
+		78C9070A2202E397006D4B54 /* TTHome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTHome.framework; path = ../Products/TTHome.framework; sourceTree = "<group>"; };
+		78C9070C2202E472006D4B54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78C9070D2202E472006D4B54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		787ADA6C21F1E697003A17CF /* Frameworks */ = {
+		78879D5821FAF1F40065B221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9070B2202E397006D4B54 /* TTHome.framework in Frameworks */,
+				78C9068C2202C406006D4B54 /* GoldWebViewFramework.framework in Frameworks */,
+				78C906742202BE13006D4B54 /* libicucore.tbd in Frameworks */,
+				78C906722202BE0B006D4B54 /* libc++.tbd in Frameworks */,
+				78C906702202BE02006D4B54 /* libsqlite3.tbd in Frameworks */,
+				78C9066E2202BDFB006D4B54 /* libz.tbd in Frameworks */,
+				78C9066C2202BDF4006D4B54 /* libxml2.tbd in Frameworks */,
+				78C9066A2202BD70006D4B54 /* CoreTelephony.framework in Frameworks */,
+				78879DA721FAFF770065B221 /* GoldBaseFramework.framework in Frameworks */,
+				78879D9321FAFF6A0065B221 /* CoreFoundation.framework in Frameworks */,
+				78C9068E2202C451006D4B54 /* GoldHybridFramework.framework in Frameworks */,
+				78879DA521FAFF770065B221 /* MMobileFramework.framework in Frameworks */,
+				78879DA221FAFF770065B221 /* GoldNetworkFramework.framework in Frameworks */,
+				78879DAA21FAFF770065B221 /* GoldLogFramework.framework in Frameworks */,
+				78C906632202A0A8006D4B54 /* mars.framework in Frameworks */,
+				78879DA121FAFF770065B221 /* GoldDataFramework.framework in Frameworks */,
+				78879DA621FAFF770065B221 /* GoldRPCFramework.framework in Frameworks */,
+				78879DA021FAFF770065B221 /* MVendorFramework.framework in Frameworks */,
+				78879DA321FAFF770065B221 /* GoldPhotoFramework.framework in Frameworks */,
+				78879D9421FAFF6A0065B221 /* Foundation.framework in Frameworks */,
+				78879DA921FAFF770065B221 /* MRouterFramework.framework in Frameworks */,
+				78879DA421FAFF770065B221 /* MDebugFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78879D7021FAF1F70065B221 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		787ADA8421F1E69B003A17CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		787ADA8F21F1E69B003A17CF /* Frameworks */ = {
+		78879D7B21FAF1F70065B221 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,139 +180,256 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		787ADA6621F1E697003A17CF = {
+		78879D5221FAF1F40065B221 = {
 			isa = PBXGroup;
 			children = (
-				787ADA7121F1E697003A17CF /* Toutiao */,
-				787ADA8A21F1E69B003A17CF /* ToutiaoTests */,
-				787ADA9521F1E69B003A17CF /* ToutiaoUITests */,
-				787ADA7021F1E697003A17CF /* Products */,
+				78879D5D21FAF1F40065B221 /* TouTiao */,
+				78879D7621FAF1F70065B221 /* TouTiaoTests */,
+				78879D8121FAF1F70065B221 /* TouTiaoUITests */,
+				78879D5C21FAF1F40065B221 /* Products */,
+				78879D9021FAFF690065B221 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		787ADA7021F1E697003A17CF /* Products */ = {
+		78879D5C21FAF1F40065B221 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				787ADA6F21F1E697003A17CF /* Toutiao.app */,
-				787ADA8721F1E69B003A17CF /* ToutiaoTests.xctest */,
-				787ADA9221F1E69B003A17CF /* ToutiaoUITests.xctest */,
+				78879D5B21FAF1F40065B221 /* TouTiao.app */,
+				78879D7321FAF1F70065B221 /* TouTiaoTests.xctest */,
+				78879D7E21FAF1F70065B221 /* TouTiaoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		787ADA7121F1E697003A17CF /* Toutiao */ = {
+		78879D5D21FAF1F40065B221 /* TouTiao */ = {
 			isa = PBXGroup;
 			children = (
-				787ADA7221F1E697003A17CF /* AppDelegate.h */,
-				787ADA7321F1E697003A17CF /* AppDelegate.m */,
-				787ADA7521F1E697003A17CF /* ViewController.h */,
-				787ADA7621F1E697003A17CF /* ViewController.m */,
-				787ADA7821F1E698003A17CF /* Main.storyboard */,
-				787ADA7B21F1E69B003A17CF /* Assets.xcassets */,
-				787ADA7D21F1E69B003A17CF /* LaunchScreen.storyboard */,
-				787ADA8021F1E69B003A17CF /* Info.plist */,
-				787ADA8121F1E69B003A17CF /* main.m */,
+				78C9068F2202C4F1006D4B54 /* Service */,
+				78C906652202A14A006D4B54 /* BaseExtend */,
+				78C906642202A133006D4B54 /* Config */,
+				78C906532202A091006D4B54 /* Log */,
+				78C906522202A05A006D4B54 /* Resource */,
+				78C906512202A051006D4B54 /* Delegate */,
+				78C906752202BF5F006D4B54 /* Supporting Files */,
+				78879D6721FAF1F70065B221 /* Assets.xcassets */,
+				78879D6C21FAF1F70065B221 /* Info.plist */,
+				78879DAB21FB00580065B221 /* PrefixHeader.pch */,
+				78C9070C2202E472006D4B54 /* ViewController.h */,
+				78C9070D2202E472006D4B54 /* ViewController.m */,
 			);
-			path = Toutiao;
+			path = TouTiao;
 			sourceTree = "<group>";
 		};
-		787ADA8A21F1E69B003A17CF /* ToutiaoTests */ = {
+		78879D7621FAF1F70065B221 /* TouTiaoTests */ = {
 			isa = PBXGroup;
 			children = (
-				787ADA8B21F1E69B003A17CF /* ToutiaoTests.m */,
-				787ADA8D21F1E69B003A17CF /* Info.plist */,
+				78879D7721FAF1F70065B221 /* TouTiaoTests.m */,
+				78879D7921FAF1F70065B221 /* Info.plist */,
 			);
-			path = ToutiaoTests;
+			path = TouTiaoTests;
 			sourceTree = "<group>";
 		};
-		787ADA9521F1E69B003A17CF /* ToutiaoUITests */ = {
+		78879D8121FAF1F70065B221 /* TouTiaoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				787ADA9621F1E69B003A17CF /* ToutiaoUITests.m */,
-				787ADA9821F1E69B003A17CF /* Info.plist */,
+				78879D8221FAF1F70065B221 /* TouTiaoUITests.m */,
+				78879D8421FAF1F70065B221 /* Info.plist */,
 			);
-			path = ToutiaoUITests;
+			path = TouTiaoUITests;
+			sourceTree = "<group>";
+		};
+		78879D9021FAFF690065B221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C9070A2202E397006D4B54 /* TTHome.framework */,
+				78C9068D2202C451006D4B54 /* GoldHybridFramework.framework */,
+				78C9068B2202C406006D4B54 /* GoldWebViewFramework.framework */,
+				78C906732202BE12006D4B54 /* libicucore.tbd */,
+				78C906712202BE0B006D4B54 /* libc++.tbd */,
+				78C9066F2202BE02006D4B54 /* libsqlite3.tbd */,
+				78C9066D2202BDFB006D4B54 /* libz.tbd */,
+				78C9066B2202BDF3006D4B54 /* libxml2.tbd */,
+				78C906692202BD70006D4B54 /* CoreTelephony.framework */,
+				78879D9C21FAFF760065B221 /* GoldBaseFramework.framework */,
+				78879D9621FAFF760065B221 /* GoldDataFramework.framework */,
+				78879D9F21FAFF760065B221 /* GoldLogFramework.framework */,
+				78879D9721FAFF760065B221 /* GoldNetworkFramework.framework */,
+				78879D9821FAFF760065B221 /* GoldPhotoFramework.framework */,
+				78879D9B21FAFF760065B221 /* GoldRPCFramework.framework */,
+				78879D9921FAFF760065B221 /* MDebugFramework.framework */,
+				78879D9A21FAFF760065B221 /* MMobileFramework.framework */,
+				78879D9E21FAFF760065B221 /* MRouterFramework.framework */,
+				78879D9521FAFF760065B221 /* MVendorFramework.framework */,
+				78879D9121FAFF6A0065B221 /* CoreFoundation.framework */,
+				78879D9221FAFF6A0065B221 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C906512202A051006D4B54 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				78C906762202C005006D4B54 /* BGClientDelegate+TouTiao.h */,
+				78C906772202C005006D4B54 /* BGClientDelegate+TouTiao.m */,
+				78C906862202C140006D4B54 /* BGBootLoader+Boot.h */,
+				78C906872202C140006D4B54 /* BGBootLoader+Boot.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		78C906522202A05A006D4B54 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				78C9067E2202C053006D4B54 /* colorNote */,
+				78C9067F2202C054006D4B54 /* wscnDay.json */,
+				78C9067D2202C053006D4B54 /* wscnNight.json */,
+				78C906792202C030006D4B54 /* MobileRuntime.plist */,
+				78C9067A2202C030006D4B54 /* url_resolver.plist */,
+				78879D6421FAF1F40065B221 /* Main.storyboard */,
+				78879D6921FAF1F70065B221 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		78C906532202A091006D4B54 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				78C906552202A0A8006D4B54 /* GoldLog+Mars.h */,
+				78C906542202A0A8006D4B54 /* GoldLog+Mars.mm */,
+				78C906562202A0A8006D4B54 /* Mars */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		78C906562202A0A8006D4B54 /* Mars */ = {
+			isa = PBXGroup;
+			children = (
+				78C9065B2202A0A8006D4B54 /* mars.framework */,
+				78C906582202A0A8006D4B54 /* log_crypt.cc */,
+				78C9065D2202A0A8006D4B54 /* log_crypt.h */,
+				78C9065A2202A0A8006D4B54 /* longlink_packer.cc */,
+				78C9065C2202A0A8006D4B54 /* longlink_packer.h */,
+				78C906592202A0A8006D4B54 /* shortlink_packer.cc */,
+				78C906572202A0A8006D4B54 /* shortlink_packer.h */,
+				78C9065E2202A0A8006D4B54 /* stnproto_logic.h */,
+			);
+			path = Mars;
+			sourceTree = "<group>";
+		};
+		78C906642202A133006D4B54 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				78C906842202C083006D4B54 /* LNTheme+WSCN.h */,
+				78C906832202C083006D4B54 /* LNTheme+WSCN.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		78C906652202A14A006D4B54 /* BaseExtend */ = {
+			isa = PBXGroup;
+			children = (
+				78C906672202A15E006D4B54 /* UIViewController+Appear.h */,
+				78C906662202A15D006D4B54 /* UIViewController+Appear.m */,
+			);
+			path = BaseExtend;
+			sourceTree = "<group>";
+		};
+		78C906752202BF5F006D4B54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78879D6D21FAF1F70065B221 /* main.mm */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C9068F2202C4F1006D4B54 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				78C906902202C53F006D4B54 /* TouTiaoOnStartServiceImpl.h */,
+				78C906912202C53F006D4B54 /* TouTiaoOnStartServiceImpl.m */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		787ADA6E21F1E697003A17CF /* Toutiao */ = {
+		78879D5A21FAF1F40065B221 /* TouTiao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787ADA9B21F1E69B003A17CF /* Build configuration list for PBXNativeTarget "Toutiao" */;
+			buildConfigurationList = 78879D8721FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiao" */;
 			buildPhases = (
-				787ADA6B21F1E697003A17CF /* Sources */,
-				787ADA6C21F1E697003A17CF /* Frameworks */,
-				787ADA6D21F1E697003A17CF /* Resources */,
+				78879D5721FAF1F40065B221 /* Sources */,
+				78879D5821FAF1F40065B221 /* Frameworks */,
+				78879D5921FAF1F40065B221 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Toutiao;
-			productName = Toutiao;
-			productReference = 787ADA6F21F1E697003A17CF /* Toutiao.app */;
+			name = TouTiao;
+			productName = TouTiao;
+			productReference = 78879D5B21FAF1F40065B221 /* TouTiao.app */;
 			productType = "com.apple.product-type.application";
 		};
-		787ADA8621F1E69B003A17CF /* ToutiaoTests */ = {
+		78879D7221FAF1F70065B221 /* TouTiaoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787ADA9E21F1E69B003A17CF /* Build configuration list for PBXNativeTarget "ToutiaoTests" */;
+			buildConfigurationList = 78879D8A21FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiaoTests" */;
 			buildPhases = (
-				787ADA8321F1E69B003A17CF /* Sources */,
-				787ADA8421F1E69B003A17CF /* Frameworks */,
-				787ADA8521F1E69B003A17CF /* Resources */,
+				78879D6F21FAF1F70065B221 /* Sources */,
+				78879D7021FAF1F70065B221 /* Frameworks */,
+				78879D7121FAF1F70065B221 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				787ADA8921F1E69B003A17CF /* PBXTargetDependency */,
+				78879D7521FAF1F70065B221 /* PBXTargetDependency */,
 			);
-			name = ToutiaoTests;
-			productName = ToutiaoTests;
-			productReference = 787ADA8721F1E69B003A17CF /* ToutiaoTests.xctest */;
+			name = TouTiaoTests;
+			productName = TouTiaoTests;
+			productReference = 78879D7321FAF1F70065B221 /* TouTiaoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		787ADA9121F1E69B003A17CF /* ToutiaoUITests */ = {
+		78879D7D21FAF1F70065B221 /* TouTiaoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 787ADAA121F1E69B003A17CF /* Build configuration list for PBXNativeTarget "ToutiaoUITests" */;
+			buildConfigurationList = 78879D8D21FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiaoUITests" */;
 			buildPhases = (
-				787ADA8E21F1E69B003A17CF /* Sources */,
-				787ADA8F21F1E69B003A17CF /* Frameworks */,
-				787ADA9021F1E69B003A17CF /* Resources */,
+				78879D7A21FAF1F70065B221 /* Sources */,
+				78879D7B21FAF1F70065B221 /* Frameworks */,
+				78879D7C21FAF1F70065B221 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				787ADA9421F1E69B003A17CF /* PBXTargetDependency */,
+				78879D8021FAF1F70065B221 /* PBXTargetDependency */,
 			);
-			name = ToutiaoUITests;
-			productName = ToutiaoUITests;
-			productReference = 787ADA9221F1E69B003A17CF /* ToutiaoUITests.xctest */;
+			name = TouTiaoUITests;
+			productName = TouTiaoUITests;
+			productReference = 78879D7E21FAF1F70065B221 /* TouTiaoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		787ADA6721F1E697003A17CF /* Project object */ = {
+		78879D5321FAF1F40065B221 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = AlexZhang;
 				TargetAttributes = {
-					787ADA6E21F1E697003A17CF = {
+					78879D5A21FAF1F40065B221 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					787ADA8621F1E69B003A17CF = {
+					78879D7221FAF1F70065B221 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 787ADA6E21F1E697003A17CF;
+						TestTargetID = 78879D5A21FAF1F40065B221;
 					};
-					787ADA9121F1E69B003A17CF = {
+					78879D7D21FAF1F70065B221 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 787ADA6E21F1E697003A17CF;
+						TestTargetID = 78879D5A21FAF1F40065B221;
 					};
 				};
 			};
-			buildConfigurationList = 787ADA6A21F1E697003A17CF /* Build configuration list for PBXProject "Toutiao" */;
+			buildConfigurationList = 78879D5621FAF1F40065B221 /* Build configuration list for PBXProject "TouTiao" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +437,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 787ADA6621F1E697003A17CF;
-			productRefGroup = 787ADA7021F1E697003A17CF /* Products */;
+			mainGroup = 78879D5221FAF1F40065B221;
+			productRefGroup = 78879D5C21FAF1F40065B221 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				787ADA6E21F1E697003A17CF /* Toutiao */,
-				787ADA8621F1E69B003A17CF /* ToutiaoTests */,
-				787ADA9121F1E69B003A17CF /* ToutiaoUITests */,
+				78879D5A21FAF1F40065B221 /* TouTiao */,
+				78879D7221FAF1F70065B221 /* TouTiaoTests */,
+				78879D7D21FAF1F70065B221 /* TouTiaoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		787ADA6D21F1E697003A17CF /* Resources */ = {
+		78879D5921FAF1F40065B221 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787ADA7F21F1E69B003A17CF /* LaunchScreen.storyboard in Resources */,
-				787ADA7C21F1E69B003A17CF /* Assets.xcassets in Resources */,
-				787ADA7A21F1E698003A17CF /* Main.storyboard in Resources */,
+				78879D6B21FAF1F70065B221 /* LaunchScreen.storyboard in Resources */,
+				78C9067B2202C031006D4B54 /* MobileRuntime.plist in Resources */,
+				78879D6821FAF1F70065B221 /* Assets.xcassets in Resources */,
+				78C906802202C054006D4B54 /* wscnNight.json in Resources */,
+				78879D6621FAF1F40065B221 /* Main.storyboard in Resources */,
+				78C906822202C054006D4B54 /* wscnDay.json in Resources */,
+				78C906812202C054006D4B54 /* colorNote in Resources */,
+				78C9067C2202C031006D4B54 /* url_resolver.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		787ADA8521F1E69B003A17CF /* Resources */ = {
+		78879D7121FAF1F70065B221 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		787ADA9021F1E69B003A17CF /* Resources */ = {
+		78879D7C21FAF1F70065B221 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +482,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		787ADA6B21F1E697003A17CF /* Sources */ = {
+		78879D5721FAF1F40065B221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787ADA7721F1E697003A17CF /* ViewController.m in Sources */,
-				787ADA8221F1E69B003A17CF /* main.m in Sources */,
-				787ADA7421F1E697003A17CF /* AppDelegate.m in Sources */,
+				78C906882202C140006D4B54 /* BGBootLoader+Boot.m in Sources */,
+				78C906922202C53F006D4B54 /* TouTiaoOnStartServiceImpl.m in Sources */,
+				78C9065F2202A0A8006D4B54 /* GoldLog+Mars.mm in Sources */,
+				78879D6E21FAF1F70065B221 /* main.mm in Sources */,
+				78C906782202C005006D4B54 /* BGClientDelegate+TouTiao.m in Sources */,
+				78C9070E2202E472006D4B54 /* ViewController.m in Sources */,
+				78C906852202C083006D4B54 /* LNTheme+WSCN.m in Sources */,
+				78C906602202A0A8006D4B54 /* log_crypt.cc in Sources */,
+				78C906612202A0A8006D4B54 /* shortlink_packer.cc in Sources */,
+				78C906682202A15E006D4B54 /* UIViewController+Appear.m in Sources */,
+				78C906622202A0A8006D4B54 /* longlink_packer.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		787ADA8321F1E69B003A17CF /* Sources */ = {
+		78879D6F21FAF1F70065B221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787ADA8C21F1E69B003A17CF /* ToutiaoTests.m in Sources */,
+				78879D7821FAF1F70065B221 /* TouTiaoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		787ADA8E21F1E69B003A17CF /* Sources */ = {
+		78879D7A21FAF1F70065B221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787ADA9721F1E69B003A17CF /* ToutiaoUITests.m in Sources */,
+				78879D8321FAF1F70065B221 /* TouTiaoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		787ADA8921F1E69B003A17CF /* PBXTargetDependency */ = {
+		78879D7521FAF1F70065B221 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 787ADA6E21F1E697003A17CF /* Toutiao */;
-			targetProxy = 787ADA8821F1E69B003A17CF /* PBXContainerItemProxy */;
+			target = 78879D5A21FAF1F40065B221 /* TouTiao */;
+			targetProxy = 78879D7421FAF1F70065B221 /* PBXContainerItemProxy */;
 		};
-		787ADA9421F1E69B003A17CF /* PBXTargetDependency */ = {
+		78879D8021FAF1F70065B221 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 787ADA6E21F1E697003A17CF /* Toutiao */;
-			targetProxy = 787ADA9321F1E69B003A17CF /* PBXContainerItemProxy */;
+			target = 78879D5A21FAF1F40065B221 /* TouTiao */;
+			targetProxy = 78879D7F21FAF1F70065B221 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		787ADA7821F1E698003A17CF /* Main.storyboard */ = {
+		78879D6421FAF1F40065B221 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				787ADA7921F1E698003A17CF /* Base */,
+				78879D6521FAF1F40065B221 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		787ADA7D21F1E69B003A17CF /* LaunchScreen.storyboard */ = {
+		78879D6921FAF1F70065B221 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				787ADA7E21F1E69B003A17CF /* Base */,
+				78879D6A21FAF1F70065B221 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +551,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		787ADA9921F1E69B003A17CF /* Debug */ = {
+		78879D8521FAF1F70065B221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +610,7 @@
 			};
 			name = Debug;
 		};
-		787ADA9A21F1E69B003A17CF /* Release */ = {
+		78879D8621FAF1F70065B221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,148 +663,184 @@
 			};
 			name = Release;
 		};
-		787ADA9C21F1E69B003A17CF /* Debug */ = {
+		78879D8821FAF1F70065B221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Toutiao/Info.plist;
+				DEVELOPMENT_TEAM = 4RTMSXL9KV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Products/",
+					"$(PROJECT_DIR)/TouTiao/Log/Mars",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Vendor",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = TouTiao/PrefixHeader.pch;
+				INFOPLIST_FILE = TouTiao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.Toutiao;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Products/",
+					"$(PROJECT_DIR)/../Vendor",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiao.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		787ADA9D21F1E69B003A17CF /* Release */ = {
+		78879D8921FAF1F70065B221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Toutiao/Info.plist;
+				DEVELOPMENT_TEAM = 4RTMSXL9KV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Products/",
+					"$(PROJECT_DIR)/TouTiao/Log/Mars",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/../Vendor",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = TouTiao/PrefixHeader.pch;
+				INFOPLIST_FILE = TouTiao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.Toutiao;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../Products/",
+					"$(PROJECT_DIR)/../Vendor",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiao.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		787ADA9F21F1E69B003A17CF /* Debug */ = {
+		78879D8B21FAF1F70065B221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ToutiaoTests/Info.plist;
+				INFOPLIST_FILE = TouTiaoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.ToutiaoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiaoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toutiao.app/Toutiao";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/TouTiao";
 			};
 			name = Debug;
 		};
-		787ADAA021F1E69B003A17CF /* Release */ = {
+		78879D8C21FAF1F70065B221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ToutiaoTests/Info.plist;
+				INFOPLIST_FILE = TouTiaoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.ToutiaoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiaoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toutiao.app/Toutiao";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/TouTiao";
 			};
 			name = Release;
 		};
-		787ADAA221F1E69B003A17CF /* Debug */ = {
+		78879D8E21FAF1F70065B221 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ToutiaoUITests/Info.plist;
+				INFOPLIST_FILE = TouTiaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.ToutiaoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Toutiao;
+				TEST_TARGET_NAME = TouTiao;
 			};
 			name = Debug;
 		};
-		787ADAA321F1E69B003A17CF /* Release */ = {
+		78879D8F21FAF1F70065B221 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ToutiaoUITests/Info.plist;
+				INFOPLIST_FILE = TouTiaoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.ToutiaoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TouTiaoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Toutiao;
+				TEST_TARGET_NAME = TouTiao;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		787ADA6A21F1E697003A17CF /* Build configuration list for PBXProject "Toutiao" */ = {
+		78879D5621FAF1F40065B221 /* Build configuration list for PBXProject "TouTiao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				787ADA9921F1E69B003A17CF /* Debug */,
-				787ADA9A21F1E69B003A17CF /* Release */,
+				78879D8521FAF1F70065B221 /* Debug */,
+				78879D8621FAF1F70065B221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		787ADA9B21F1E69B003A17CF /* Build configuration list for PBXNativeTarget "Toutiao" */ = {
+		78879D8721FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiao" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				787ADA9C21F1E69B003A17CF /* Debug */,
-				787ADA9D21F1E69B003A17CF /* Release */,
+				78879D8821FAF1F70065B221 /* Debug */,
+				78879D8921FAF1F70065B221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		787ADA9E21F1E69B003A17CF /* Build configuration list for PBXNativeTarget "ToutiaoTests" */ = {
+		78879D8A21FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiaoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				787ADA9F21F1E69B003A17CF /* Debug */,
-				787ADAA021F1E69B003A17CF /* Release */,
+				78879D8B21FAF1F70065B221 /* Debug */,
+				78879D8C21FAF1F70065B221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		787ADAA121F1E69B003A17CF /* Build configuration list for PBXNativeTarget "ToutiaoUITests" */ = {
+		78879D8D21FAF1F70065B221 /* Build configuration list for PBXNativeTarget "TouTiaoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				787ADAA221F1E69B003A17CF /* Debug */,
-				787ADAA321F1E69B003A17CF /* Release */,
+				78879D8E21FAF1F70065B221 /* Debug */,
+				78879D8F21FAF1F70065B221 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 787ADA6721F1E697003A17CF /* Project object */;
+	rootObject = 78879D5321FAF1F40065B221 /* Project object */;
 }

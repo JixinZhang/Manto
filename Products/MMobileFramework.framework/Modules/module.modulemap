@@ -1,0 +1,6 @@
+framework module MMobileFramework {
+  umbrella header "MMobileFramework.h"
+
+  export *
+  module * { export * }
+}

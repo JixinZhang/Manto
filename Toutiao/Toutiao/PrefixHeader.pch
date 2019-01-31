@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  TouTiao
+//
+//  Created by AlexZhang on 2019/1/25.
+//  Copyright © 2019 AlexZhang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <GoldBaseFramework/GoldBaseFramework.h>
+#import <GoldLogFramework/GoldLogFramework.h>
+#import <GoldNetworkFramework/GoldNetworkFramework.h>
+#import <GoldPhotoFramework/GoldPhotoFramework.h>
+#import <GoldRPCFramework/GoldRPCFramework.h>
+#import <GoldHybridFramework/GoldHybridFramework.h>
+#import <GoldWebViewFramework/GoldWebViewFramework.h>
+#import <MMobileFramework/MMobileFramework.h>
+#import <MDebugFramework/MDebugFramework.h>
+#import <MRouterFramework/MRouterFramework.h>
+#import <MVendorFramework/MVendorFramework.h>
+#import <GoldNetworkFramework/UIImage+MultiFormat.h>
+
+#endif
+
+#endif /* PrefixHeader_pch */

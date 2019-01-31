@@ -1,0 +1,6 @@
+framework module GoldWebViewFramework {
+  umbrella header "GoldWebViewFramework.h"
+
+  export *
+  module * { export * }
+}

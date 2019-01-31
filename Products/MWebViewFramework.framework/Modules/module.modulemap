@@ -1,0 +1,6 @@
+framework module MWebViewFramework {
+  umbrella header "MWebViewFramework.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module GoldRPCFramework {
+  umbrella header "GoldRPCFramework.h"
+
+  export *
+  module * { export * }
+}

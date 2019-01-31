@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Toutiao.xcscheme_^#shared#^_</key>
+		<key>TouTiao.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>78879D5A21FAF1F40065B221</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78879D7221FAF1F70065B221</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78879D7D21FAF1F70065B221</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

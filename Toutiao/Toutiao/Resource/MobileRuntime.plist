@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Launcher</key>
+	<string>20000001</string>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>class</key>
+			<string>TouTiaoOnStartServiceImpl</string>
+			<key>lazyLoading</key>
+			<false/>
+			<key>name</key>
+			<string>TouTiaoOnStartService</string>
+		</dict>
+		<dict>
+			<key>class</key>
+			<string>TTOnTabServiceImpl</string>
+			<key>lazyLoading</key>
+			<false/>
+			<key>name</key>
+			<string>TTOnTabService</string>
+		</dict>
+	</array>
+	<key>Applications</key>
+	<array>
+		<dict>
+			<key>delegate</key>
+			<string>HomeAppDelegate</string>
+			<key>description</key>
+			<string>启动窗</string>
+			<key>name</key>
+			<string>20000001</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module MVendorFramework {
+  umbrella header "MVendorFramework.h"
+
+  export *
+  module * { export * }
+}

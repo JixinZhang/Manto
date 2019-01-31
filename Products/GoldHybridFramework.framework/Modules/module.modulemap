@@ -1,0 +1,6 @@
+framework module GoldHybridFramework {
+  umbrella header "GoldHybridFramework.h"
+
+  export *
+  module * { export * }
+}

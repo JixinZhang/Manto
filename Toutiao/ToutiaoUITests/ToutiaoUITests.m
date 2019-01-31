@@ -1,18 +1,18 @@
 //
-//  ToutiaoUITests.m
-//  ToutiaoUITests
+//  TouTiaoUITests.m
+//  TouTiaoUITests
 //
-//  Created by AlexZhang on 2019/1/18.
+//  Created by AlexZhang on 2019/1/25.
 //  Copyright © 2019 AlexZhang. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ToutiaoUITests : XCTestCase
+@interface TouTiaoUITests : XCTestCase
 
 @end
 
-@implementation ToutiaoUITests
+@implementation TouTiaoUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

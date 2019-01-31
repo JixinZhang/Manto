@@ -1,0 +1,6 @@
+framework module GoldPhotoFramework {
+  umbrella header "GoldPhotoFramework.h"
+
+  export *
+  module * { export * }
+}

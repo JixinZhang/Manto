@@ -1,0 +1,6 @@
+framework module TTHome {
+  umbrella header "TTHome.h"
+
+  export *
+  module * { export * }
+}
