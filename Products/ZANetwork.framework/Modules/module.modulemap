@@ -1,0 +1,6 @@
+framework module ZANetwork {
+  umbrella header "ZANetwork.h"
+
+  export *
+  module * { export * }
+}
