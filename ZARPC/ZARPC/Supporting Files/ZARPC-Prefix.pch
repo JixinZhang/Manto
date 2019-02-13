@@ -1,0 +1,14 @@
+//  ZARPC-Prefix.pch
+//  ZARPC
+//
+//  Created by zjibo on 2019/2/1.
+//  Copyright (c) 2019 AlexZhang. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <GoldLogFramework/GoldLogFramework.h>
+
+#endif

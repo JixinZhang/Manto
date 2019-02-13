@@ -16,8 +16,8 @@
 
 #import <GoldBaseFramework/GoldBaseFramework.h>
 #import <GoldLogFramework/GoldLogFramework.h>
-#import <GoldNetworkFramework/GoldNetworkFramework.h>
-#import <GoldRPCFramework/GoldRPCFramework.h>
+#import <ZANetwork/ZANetwork.h>
+#import <ZARPC/ZARPC.h>
 #import <MRouterFramework/MRouterFramework.h>
 #import <MMobileFramework/MMobileFramework.h>
 #import <MVendorFramework/MVendorFramework.h>

@@ -1,0 +1,6 @@
+framework module ZARPC {
+  umbrella header "ZARPC.h"
+
+  export *
+  module * { export * }
+}

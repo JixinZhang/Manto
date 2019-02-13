@@ -6,7 +6,7 @@
 //  Copyright © 2016年 wallstreetcn. All rights reserved.
 //
 
-#import <GoldNetworkFramework/GoldNetworkFramework.h>
+#import "SDWebImageDownloader.h"
 
 @interface SDWebImageDownloader (NetStatus)
 

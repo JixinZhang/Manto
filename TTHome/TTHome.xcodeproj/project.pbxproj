@@ -22,15 +22,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		78BA64A12213FFFD00F20332 /* ZANetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA649F2213FFFD00F20332 /* ZANetwork.framework */; };
+		78BA64A22213FFFD00F20332 /* ZARPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA64A02213FFFD00F20332 /* ZARPC.framework */; };
 		78C906A72202C8DA006D4B54 /* TTHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C9069D2202C8DA006D4B54 /* TTHome.framework */; };
 		78C906AC2202C8DA006D4B54 /* TTHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906AB2202C8DA006D4B54 /* TTHomeTests.m */; };
 		78C906AE2202C8DA006D4B54 /* TTHome.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906A02202C8DA006D4B54 /* TTHome.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78C906DB2202CC5E006D4B54 /* GoldBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D52202CC5D006D4B54 /* GoldBaseFramework.framework */; };
-		78C906DC2202CC5E006D4B54 /* GoldRPCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D62202CC5D006D4B54 /* GoldRPCFramework.framework */; };
 		78C906DD2202CC5E006D4B54 /* MMobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D72202CC5E006D4B54 /* MMobileFramework.framework */; };
 		78C906DE2202CC5E006D4B54 /* MRouterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D82202CC5E006D4B54 /* MRouterFramework.framework */; };
 		78C906DF2202CC5E006D4B54 /* GoldLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906D92202CC5E006D4B54 /* GoldLogFramework.framework */; };
-		78C906E02202CC5E006D4B54 /* GoldNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C906DA2202CC5E006D4B54 /* GoldNetworkFramework.framework */; };
 		78C906E72202CCDF006D4B54 /* HomeAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906E52202CCDF006D4B54 /* HomeAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78C906E82202CCDF006D4B54 /* HomeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C906E62202CCDF006D4B54 /* HomeAppDelegate.m */; };
 		78C906EE2202CDA9006D4B54 /* WSCNTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C906EA2202CDA8006D4B54 /* WSCNTabBar.h */; };
@@ -59,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78BA649F2213FFFD00F20332 /* ZANetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZANetwork.framework; path = ../Products/ZANetwork.framework; sourceTree = "<group>"; };
+		78BA64A02213FFFD00F20332 /* ZARPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZARPC.framework; path = ../Products/ZARPC.framework; sourceTree = "<group>"; };
 		78C9069D2202C8DA006D4B54 /* TTHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C906A02202C8DA006D4B54 /* TTHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTHome.h; sourceTree = "<group>"; };
 		78C906A12202C8DA006D4B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,13 +96,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BA64A12213FFFD00F20332 /* ZANetwork.framework in Frameworks */,
+				78BA64A22213FFFD00F20332 /* ZARPC.framework in Frameworks */,
 				78C907082202D5C2006D4B54 /* MVendorFramework.framework in Frameworks */,
 				78C906DB2202CC5E006D4B54 /* GoldBaseFramework.framework in Frameworks */,
-				78C906DC2202CC5E006D4B54 /* GoldRPCFramework.framework in Frameworks */,
 				78C906DD2202CC5E006D4B54 /* MMobileFramework.framework in Frameworks */,
 				78C906DE2202CC5E006D4B54 /* MRouterFramework.framework in Frameworks */,
 				78C906DF2202CC5E006D4B54 /* GoldLogFramework.framework in Frameworks */,
-				78C906E02202CC5E006D4B54 /* GoldNetworkFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +163,8 @@
 		78C906D42202CC5D006D4B54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78BA649F2213FFFD00F20332 /* ZANetwork.framework */,
+				78BA64A02213FFFD00F20332 /* ZARPC.framework */,
 				78C907072202D5C1006D4B54 /* MVendorFramework.framework */,
 				78C906D52202CC5D006D4B54 /* GoldBaseFramework.framework */,
 				78C906D92202CC5E006D4B54 /* GoldLogFramework.framework */,

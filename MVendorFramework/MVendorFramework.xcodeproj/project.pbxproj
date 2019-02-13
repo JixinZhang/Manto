@@ -24,7 +24,6 @@
 /* Begin PBXBuildFile section */
 		25701A622010A43900A42853 /* HLiveNewsContentParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 25701A602010A43800A42853 /* HLiveNewsContentParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25701A632010A43900A42853 /* HLiveNewsContentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25701A612010A43900A42853 /* HLiveNewsContentParser.m */; };
-		25B1D4D2208F23270081F3C3 /* GoldNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B1D4D1208F23270081F3C3 /* GoldNetworkFramework.framework */; };
 		25B1D51F208F2B900081F3C3 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B1D4D4208F2B900081F3C3 /* HXCustomCameraViewController.m */; };
 		25B1D520208F2B900081F3C3 /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B1D4D5208F2B900081F3C3 /* UIViewController+HXExtension.m */; };
 		25B1D521208F2B900081F3C3 /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B1D4D6208F2B900081F3C3 /* HXPhotoConfiguration.m */; };
@@ -203,6 +202,8 @@
 		62F8CFC51D6472E900D2296B /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F8CFC01D6472E900D2296B /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		641AF6A2210EF84C00CDA832 /* GRichHtmlTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 641AF6A0210EF84C00CDA832 /* GRichHtmlTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		641AF6A3210EF84C00CDA832 /* GRichHtmlTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 641AF6A1210EF84C00CDA832 /* GRichHtmlTextParser.m */; };
+		78BA649D2213FE2500F20332 /* ZANetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA649B2213FE2500F20332 /* ZANetwork.framework */; };
+		78BA649E2213FE2500F20332 /* ZARPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA649C2213FE2500F20332 /* ZARPC.framework */; };
 		8D2F9E7221905A4000F9747F /* NSObject+YYAddForKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2F9E7021905A3F00F9747F /* NSObject+YYAddForKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D2F9E7321905A4000F9747F /* NSObject+YYAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9E7121905A4000F9747F /* NSObject+YYAddForKVO.m */; };
 		DA0D15591D89ABDF0012AC60 /* NSAttributedString+StringSize.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0D15571D89ABDF0012AC60 /* NSAttributedString+StringSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -269,7 +270,6 @@
 /* Begin PBXFileReference section */
 		25701A602010A43800A42853 /* HLiveNewsContentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLiveNewsContentParser.h; sourceTree = "<group>"; };
 		25701A612010A43900A42853 /* HLiveNewsContentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLiveNewsContentParser.m; sourceTree = "<group>"; };
-		25B1D4D1208F23270081F3C3 /* GoldNetworkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldNetworkFramework.framework; path = ../Products/GoldNetworkFramework.framework; sourceTree = "<group>"; };
 		25B1D4D4208F2B900081F3C3 /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
 		25B1D4D5208F2B900081F3C3 /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
 		25B1D4D6208F2B900081F3C3 /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
@@ -460,6 +460,8 @@
 		62F8CFC01D6472E900D2296B /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		641AF6A0210EF84C00CDA832 /* GRichHtmlTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRichHtmlTextParser.h; sourceTree = "<group>"; };
 		641AF6A1210EF84C00CDA832 /* GRichHtmlTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRichHtmlTextParser.m; sourceTree = "<group>"; };
+		78BA649B2213FE2500F20332 /* ZANetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZANetwork.framework; path = ../Products/ZANetwork.framework; sourceTree = "<group>"; };
+		78BA649C2213FE2500F20332 /* ZARPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZARPC.framework; path = ../Products/ZARPC.framework; sourceTree = "<group>"; };
 		8D2F9E7021905A3F00F9747F /* NSObject+YYAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYAddForKVO.h"; sourceTree = "<group>"; };
 		8D2F9E7121905A4000F9747F /* NSObject+YYAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYAddForKVO.m"; sourceTree = "<group>"; };
 		DA0D15571D89ABDF0012AC60 /* NSAttributedString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+StringSize.h"; sourceTree = "<group>"; };
@@ -531,7 +533,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25B1D4D2208F23270081F3C3 /* GoldNetworkFramework.framework in Frameworks */,
+				78BA649D2213FE2500F20332 /* ZANetwork.framework in Frameworks */,
+				78BA649E2213FE2500F20332 /* ZARPC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,7 +931,8 @@
 		DA0E8B2B1D9A5107006EBB41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25B1D4D1208F23270081F3C3 /* GoldNetworkFramework.framework */,
+				78BA649B2213FE2500F20332 /* ZANetwork.framework */,
+				78BA649C2213FE2500F20332 /* ZARPC.framework */,
 				DA0E8B2C1D9A5107006EBB41 /* libxml2.tbd */,
 			);
 			name = Frameworks;

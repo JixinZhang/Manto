@@ -98,14 +98,14 @@
 
 - (void)uploadTrafficMonitorResults {
 #ifdef DEBUG
-    GoldTrafficMonitor *trafficMonitor = [GoldTrafficMonitor sharedInstance];
+    ZARPCTrafficMonitor *trafficMonitor = [ZARPCTrafficMonitor sharedInstance];
     [trafficMonitor updateNetData];
     NSDate *startDate = [NSDate dateWithTimeIntervalSince1970:trafficMonitor.date];
     NSDate *endDate = [NSDate date];
     long long WWANSent = trafficMonitor.WWANSent;
     long long WWANReceived = trafficMonitor.WWANReceived;
     
-    NSString *trafficMonitorMessage = [NSString stringWithFormat:@"\n\nGoldTrafficMonitor \nWi-Fi S:%@ \t R:%@ \r\nWWAN S:%@ \t R:%@ \n\n", [GoldContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WiFiSent]], [GoldContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WiFiReceived]], [GoldContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WWANSent]], [GoldContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WWANReceived]]];
+    NSString *trafficMonitorMessage = [NSString stringWithFormat:@"\n\nZARPCTrafficMonitor \nWi-Fi S:%@ \t R:%@ \r\nWWAN S:%@ \t R:%@ \n\n", [ZARPCContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WiFiSent]], [ZARPCContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WiFiReceived]], [ZARPCContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WWANSent]], [ZARPCContentLengthUtils getUnitFormatedFileSizeWithContentLength:[trafficMonitor WWANReceived]]];
     DEBUGLOG(@"%@", trafficMonitorMessage);
 #endif
     
@@ -119,7 +119,7 @@
 }
 
 - (void)enterForegroundNotification:(NSNotification *) norification {
-    GoldTrafficMonitor *trafficMonitor = [GoldTrafficMonitor sharedInstance];
+    ZARPCTrafficMonitor *trafficMonitor = [ZARPCTrafficMonitor sharedInstance];
     [trafficMonitor updateNetData];
 }
 

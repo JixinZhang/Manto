@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ZARPC/ZARPC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ZANetwork/ZANetwork.xcodeproj">
    </FileRef>
    <FileRef

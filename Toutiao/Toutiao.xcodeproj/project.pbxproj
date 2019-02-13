@@ -17,14 +17,14 @@
 		78879D9421FAFF6A0065B221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9221FAFF6A0065B221 /* Foundation.framework */; };
 		78879DA021FAFF770065B221 /* MVendorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9521FAFF760065B221 /* MVendorFramework.framework */; };
 		78879DA121FAFF770065B221 /* GoldDataFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9621FAFF760065B221 /* GoldDataFramework.framework */; };
-		78879DA221FAFF770065B221 /* GoldNetworkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9721FAFF760065B221 /* GoldNetworkFramework.framework */; };
 		78879DA321FAFF770065B221 /* GoldPhotoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9821FAFF760065B221 /* GoldPhotoFramework.framework */; };
 		78879DA421FAFF770065B221 /* MDebugFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9921FAFF760065B221 /* MDebugFramework.framework */; };
 		78879DA521FAFF770065B221 /* MMobileFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9A21FAFF760065B221 /* MMobileFramework.framework */; };
-		78879DA621FAFF770065B221 /* GoldRPCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9B21FAFF760065B221 /* GoldRPCFramework.framework */; };
 		78879DA721FAFF770065B221 /* GoldBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9C21FAFF760065B221 /* GoldBaseFramework.framework */; };
 		78879DA921FAFF770065B221 /* MRouterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9E21FAFF760065B221 /* MRouterFramework.framework */; };
 		78879DAA21FAFF770065B221 /* GoldLogFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78879D9F21FAFF760065B221 /* GoldLogFramework.framework */; };
+		78BA64A52214023900F20332 /* ZANetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA64A32214023900F20332 /* ZANetwork.framework */; };
+		78BA64A62214023900F20332 /* ZARPC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA64A42214023900F20332 /* ZARPC.framework */; };
 		78C9065F2202A0A8006D4B54 /* GoldLog+Mars.mm in Sources */ = {isa = PBXBuildFile; fileRef = 78C906542202A0A8006D4B54 /* GoldLog+Mars.mm */; };
 		78C906602202A0A8006D4B54 /* log_crypt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C906582202A0A8006D4B54 /* log_crypt.cc */; };
 		78C906612202A0A8006D4B54 /* shortlink_packer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 78C906592202A0A8006D4B54 /* shortlink_packer.cc */; };
@@ -95,6 +95,8 @@
 		78879D9E21FAFF760065B221 /* MRouterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRouterFramework.framework; path = ../Products/MRouterFramework.framework; sourceTree = "<group>"; };
 		78879D9F21FAFF760065B221 /* GoldLogFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoldLogFramework.framework; path = ../Products/GoldLogFramework.framework; sourceTree = "<group>"; };
 		78879DAB21FB00580065B221 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		78BA64A32214023900F20332 /* ZANetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZANetwork.framework; path = ../Products/ZANetwork.framework; sourceTree = "<group>"; };
+		78BA64A42214023900F20332 /* ZARPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZARPC.framework; path = ../Products/ZARPC.framework; sourceTree = "<group>"; };
 		78C906542202A0A8006D4B54 /* GoldLog+Mars.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GoldLog+Mars.mm"; sourceTree = "<group>"; };
 		78C906552202A0A8006D4B54 /* GoldLog+Mars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoldLog+Mars.h"; sourceTree = "<group>"; };
 		78C906572202A0A8006D4B54 /* shortlink_packer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortlink_packer.h; sourceTree = "<group>"; };
@@ -138,6 +140,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BA64A52214023900F20332 /* ZANetwork.framework in Frameworks */,
+				78BA64A62214023900F20332 /* ZARPC.framework in Frameworks */,
 				78C9070B2202E397006D4B54 /* TTHome.framework in Frameworks */,
 				78C9068C2202C406006D4B54 /* GoldWebViewFramework.framework in Frameworks */,
 				78C906742202BE13006D4B54 /* libicucore.tbd in Frameworks */,
@@ -150,11 +154,9 @@
 				78879D9321FAFF6A0065B221 /* CoreFoundation.framework in Frameworks */,
 				78C9068E2202C451006D4B54 /* GoldHybridFramework.framework in Frameworks */,
 				78879DA521FAFF770065B221 /* MMobileFramework.framework in Frameworks */,
-				78879DA221FAFF770065B221 /* GoldNetworkFramework.framework in Frameworks */,
 				78879DAA21FAFF770065B221 /* GoldLogFramework.framework in Frameworks */,
 				78C906632202A0A8006D4B54 /* mars.framework in Frameworks */,
 				78879DA121FAFF770065B221 /* GoldDataFramework.framework in Frameworks */,
-				78879DA621FAFF770065B221 /* GoldRPCFramework.framework in Frameworks */,
 				78879DA021FAFF770065B221 /* MVendorFramework.framework in Frameworks */,
 				78879DA321FAFF770065B221 /* GoldPhotoFramework.framework in Frameworks */,
 				78879D9421FAFF6A0065B221 /* Foundation.framework in Frameworks */,
@@ -241,6 +243,8 @@
 		78879D9021FAFF690065B221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78BA64A32214023900F20332 /* ZANetwork.framework */,
+				78BA64A42214023900F20332 /* ZARPC.framework */,
 				78C9070A2202E397006D4B54 /* TTHome.framework */,
 				78C9068D2202C451006D4B54 /* GoldHybridFramework.framework */,
 				78C9068B2202C406006D4B54 /* GoldWebViewFramework.framework */,

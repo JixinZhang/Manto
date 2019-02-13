@@ -8,8 +8,8 @@
 
 #import "BGBootLoader+Boot.h"
 #import <MWebViewFramework/MWebViewFramework.h>
-#import <GoldNetworkFramework/SDWebImageCodersManager.h>
-#import <GoldNetworkFramework/SDWebImageGIFCoder.h>
+#import <ZANetwork/SDWebImageCodersManager.h>
+#import <ZANetwork/SDWebImageGIFCoder.h>
 
 @implementation BGBootLoader (Boot)
 
@@ -54,16 +54,16 @@
 
 - (id) __configRPC {
 #ifdef DEBUG
-    [[GoldNetworkAgent sharedInstance] enableLog:NO ];
+    [[ZARPCNetworkAgent sharedInstance] enableLog:NO ];
 #endif
     [[AFNetworkReachabilityManager sharedManager] performSelector:@selector(startMonitoring) withObject:nil afterDelay:5];
-    [GoldNetworkConfig sharedInstance].baseUrl = [self baseUrlForEnvMode];
-    GoldRequest.bussinessEnabled = YES;
-    //    [GoldNetworkConfig sharedInstance].domainFilter = [[RPCDomainHandler alloc] init];
-//    [[GoldNetworkConfig sharedInstance] addRequestHeaders:[[RPCPublicHeaders alloc] init]];
-//    [[GoldNetworkConfig sharedInstance] addFailedResponseFilter:[[RPCFailedResponseHandler alloc] init]];
+    [ZARPCNetworkConfig sharedInstance].baseUrl = [self baseUrlForEnvMode];
+//    ZARPCRequest.bussinessEnabled = YES;
+    //    [ZARPCNetworkConfig sharedInstance].domainFilter = [[RPCDomainHandler alloc] init];
+//    [[ZARPCNetworkConfig sharedInstance] addRequestHeaders:[[RPCPublicHeaders alloc] init]];
+//    [[ZARPCNetworkConfig sharedInstance] addFailedResponseFilter:[[RPCFailedResponseHandler alloc] init]];
     //行情设置国际化
-    DEBUGLOG(@"BASE_URL=%@",[GoldNetworkConfig sharedInstance].baseUrl);
+    DEBUGLOG(@"BASE_URL=%@",[ZARPCNetworkConfig sharedInstance].baseUrl);
     return self;
 }
 

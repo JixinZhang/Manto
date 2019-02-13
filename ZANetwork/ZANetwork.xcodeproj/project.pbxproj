@@ -303,8 +303,6 @@
 		788B4BDF22040A90004FD144 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 788B4A6122040A8F004FD144 /* UIImageView+HighlightedWebCache.m */; };
 		788B4BE022040A90004FD144 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 788B4A6222040A8F004FD144 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		788B4BE122040A90004FD144 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 788B4A6322040A8F004FD144 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788B4BE222040A90004FD144 /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 788B4A6522040A8F004FD144 /* FLAnimatedImageView+WebCache.m */; };
-		788B4BE322040A90004FD144 /* FLAnimatedImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 788B4A6622040A8F004FD144 /* FLAnimatedImageView+WebCache.h */; };
 		788B4BE422040A90004FD144 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 788B4A6722040A8F004FD144 /* SDWebImageDownloader.m */; };
 		788B4BE522040A90004FD144 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 788B4A6822040A8F004FD144 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		788B4BE622040A90004FD144 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 788B4A6A22040A8F004FD144 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1501,7 +1499,6 @@
 				788B4BF022040A90004FD144 /* SDWebImageFrame.h in Headers */,
 				788B4BA022040A90004FD144 /* KTVHCHTTPRequest.h in Headers */,
 				788B4ACF22040A90004FD144 /* HTTPRedirectResponse.h in Headers */,
-				788B4BE322040A90004FD144 /* FLAnimatedImageView+WebCache.h in Headers */,
 				788B4BF422040A90004FD144 /* SDWebImageCoderHelper.h in Headers */,
 				788B4B3E22040A90004FD144 /* vp8_dec.h in Headers */,
 				788B4BBF22040A90004FD144 /* KTVHCDataFileSource.h in Headers */,
@@ -1817,7 +1814,6 @@
 				788B4BF322040A90004FD144 /* SDWebImageImageIOCoder.m in Sources */,
 				788B4B7E22040A90004FD144 /* lossless_enc_neon.c in Sources */,
 				788B4BFE22040A90004FD144 /* SDWebImageTransition.m in Sources */,
-				788B4BE222040A90004FD144 /* FLAnimatedImageView+WebCache.m in Sources */,
 				788B4B2722040A90004FD144 /* frame_enc.c in Sources */,
 				788B4ACD22040A90004FD144 /* HTTPErrorResponse.m in Sources */,
 				788B4B3922040A90004FD144 /* anim_decode.c in Sources */,

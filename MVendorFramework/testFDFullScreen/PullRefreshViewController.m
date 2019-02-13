@@ -8,8 +8,8 @@
 
 #import "PullRefreshViewController.h"
 #import "MVendorFramework.h"
-#import <GoldNetworkFramework/GoldNetworkFramework.h>
-#import <GoldNetworkFramework/UIImage+MultiFormat.h>
+#import <ZANetwork/ZANetwork.h>
+#import <ZANetwork/UIImage+MultiFormat.h>
 
 #import "FullViewController.h"
 

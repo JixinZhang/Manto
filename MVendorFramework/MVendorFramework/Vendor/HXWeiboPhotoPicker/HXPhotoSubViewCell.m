@@ -10,7 +10,7 @@
 #import "HXPhotoModel.h"
 #import "HXCircleProgressView.h"
 #import "HXPhotoTools.h"
-#import <GoldNetworkFramework/UIImageView+WebCache.h>
+#import <ZANetwork/UIImageView+WebCache.h>
 
 @interface HXPhotoSubViewCell ()<UIAlertViewDelegate>
 @property (strong, nonatomic) UIImageView *imageView;
