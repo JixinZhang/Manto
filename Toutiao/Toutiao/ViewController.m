@@ -23,6 +23,7 @@
     [super viewWillAppear:animated];
     CGFloat x = (arc4random() * 100 % 255);
     self.view.backgroundColor = [UIColor getColor:x + 20 : x - 70 : x + 50];
+    self.navigationController.navigationBar.hidden = NO;
 }
 
 - (BOOL)fd_prefersNavigationBarHidden {

@@ -28,7 +28,9 @@
 #import <MRouterFramework/MRouterFramework.h>
 #import <MVendorFramework/MVendorFramework.h>
 #import <ZANetwork/UIImage+MultiFormat.h>
-
+#import <TTChannel/TTChannel.h>
+#import <TTNews/TTNews.h>
+#import <MCommonUI/MCommonUI.h>
 #endif
 
 #endif /* PrefixHeader_pch */

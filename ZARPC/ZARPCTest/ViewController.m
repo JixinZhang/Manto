@@ -10,18 +10,18 @@
 #import <ZANetwork/ZANetwork.h>
 #import <ZARPC/ZARPC.h>
 
-@interface TTNewsListRequest : ZARPCBaseRequest
-
-
-@end
-
-@implementation TTNewsListRequest
-
-- (NSString *)requestUrl {
-    return @"https://is.snssdk.com/api/news/feed/v58/?iid=17769976909";
-}
-
-@end
+//@interface TTNewsListRequest : ZARPCBaseRequest
+//
+//
+//@end
+//
+//@implementation TTNewsListRequest
+//
+//- (NSString *)requestUrl {
+//    return @"https://is.snssdk.com/api/news/feed/v58/?iid=17769976909";
+//}
+//
+//@end
 
 
 @interface ViewController ()
@@ -32,13 +32,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    TTNewsListRequest *requst = [[TTNewsListRequest alloc] init];
-    [requst startWithCompletionBlockWithSuccess:^(ZARPCBaseRequest *request) {
-        NSDictionary *response = requst.responseObject;
-        DEBUGLOG(@"%@", response);
-    } failure:^(ZARPCBaseRequest *request) {
-        
-    }];
+//    TTNewsListRequest *requst = [[TTNewsListRequest alloc] init];
+//    [requst startWithCompletionBlockWithSuccess:^(ZARPCBaseRequest *request) {
+//        NSDictionary *response = requst.responseObject;
+//        DEBUGLOG(@"%@", response);
+//    } failure:^(ZARPCBaseRequest *request) {
+//
+//    }];
 }
 
 

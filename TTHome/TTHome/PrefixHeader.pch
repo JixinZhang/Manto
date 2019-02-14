@@ -22,6 +22,7 @@
 #import <MMobileFramework/MMobileFramework.h>
 #import <MVendorFramework/MVendorFramework.h>
 #import <TTHome/TTHome.h>
+#import <TTNews/TTNews.h>
 #endif
 
 #endif /* PrefixHeader_pch */

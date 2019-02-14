@@ -1,0 +1,6 @@
+framework module TTChannel {
+  umbrella header "TTChannel.h"
+
+  export *
+  module * { export * }
+}

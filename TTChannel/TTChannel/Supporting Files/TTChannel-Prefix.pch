@@ -1,0 +1,15 @@
+//  TTChannel-Prefix.pch
+//  TTChannel
+//
+//  Created by zjibo on 2019/2/13.
+//  Copyright (c) 2019 AlexZhang. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MCommonUI/MCommonUI.h>
+#import <GoldBaseFramework/GoldBaseFramework.h>
+#import <GoldWebViewFramework/GoldWebViewFramework.h>
+#endif

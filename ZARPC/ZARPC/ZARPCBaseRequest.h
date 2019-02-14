@@ -85,9 +85,9 @@ typedef void (^AFConstructingBlock)(id <AFMultipartFormData> formData);
 
 @property (nonatomic, assign) ZARPCRequestMethod requestMethod;
 
-@property (nonatomic, copy) void (^successCompletionBlock)(ZARPCBaseRequest *);
+@property (nonatomic, copy) void (^successCompletionBlock)(ZARPCBaseRequest *request);
 
-@property (nonatomic, copy) void (^failureCompletionBlock)(ZARPCBaseRequest *);
+@property (nonatomic, copy) void (^failureCompletionBlock)(ZARPCBaseRequest *request);
 
 @property (nonatomic, copy) void (^progressBlock)(NSProgress *uploadProgress);
 

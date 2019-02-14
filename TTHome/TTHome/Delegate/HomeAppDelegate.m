@@ -27,7 +27,7 @@
         self.rootController = self.tabBarController;
         
         NSArray *controllers = @[
-                                 @"ViewController",
+                                 @"TTNewsViewController",
                                  @"ViewController",
                                  @"ViewController",
 //                                 @"ViewController",

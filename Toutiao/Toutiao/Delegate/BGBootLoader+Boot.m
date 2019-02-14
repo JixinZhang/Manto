@@ -40,11 +40,11 @@
     //bundle号为奇数，可以切换环境
     switch ([MDebug sharedInstance].currentEnv) {
         case MDebug_ENV_SIT:
-            return @"https://api-sit.wallstreetcn.com/";
+            return @"https://is.snssdk.com/";
         case MDebug_ENV_STAGE:
-            return @"https://api-stage.wallstreetcn.com/";
+            return @"https://is.snssdk.com/";
         default:
-            return @"https://api.wallstreetcn.com/";
+            return @"https://is.snssdk.com/";
     }
 }
 

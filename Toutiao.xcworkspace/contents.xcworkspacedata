@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TTChannel/TTChannel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TTNews/TTNews.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ZARPC/ZARPC.xcodeproj">
    </FileRef>
    <FileRef

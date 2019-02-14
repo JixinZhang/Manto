@@ -46,6 +46,7 @@
 		78C907052202D59E006D4B54 /* WSCNTabBarItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C907032202D59E006D4B54 /* WSCNTabBarItemModel.h */; };
 		78C907062202D59E006D4B54 /* WSCNTabBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C907042202D59E006D4B54 /* WSCNTabBarItemModel.m */; };
 		78C907082202D5C2006D4B54 /* MVendorFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C907072202D5C1006D4B54 /* MVendorFramework.framework */; };
+		78F4B21D2215399400724E69 /* TTNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F4B21C2215399400724E69 /* TTNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		78C907032202D59E006D4B54 /* WSCNTabBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSCNTabBarItemModel.h; sourceTree = "<group>"; };
 		78C907042202D59E006D4B54 /* WSCNTabBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSCNTabBarItemModel.m; sourceTree = "<group>"; };
 		78C907072202D5C1006D4B54 /* MVendorFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MVendorFramework.framework; path = ../Products/MVendorFramework.framework; sourceTree = "<group>"; };
+		78F4B21C2215399400724E69 /* TTNews.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTNews.framework; path = ../Products/TTNews.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F4B21D2215399400724E69 /* TTNews.framework in Frameworks */,
 				78BA64A12213FFFD00F20332 /* ZANetwork.framework in Frameworks */,
 				78BA64A22213FFFD00F20332 /* ZARPC.framework in Frameworks */,
 				78C907082202D5C2006D4B54 /* MVendorFramework.framework in Frameworks */,
@@ -163,6 +166,7 @@
 		78C906D42202CC5D006D4B54 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78F4B21C2215399400724E69 /* TTNews.framework */,
 				78BA649F2213FFFD00F20332 /* ZANetwork.framework */,
 				78BA64A02213FFFD00F20332 /* ZARPC.framework */,
 				78C907072202D5C1006D4B54 /* MVendorFramework.framework */,

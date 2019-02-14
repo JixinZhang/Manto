@@ -1,0 +1,26 @@
+//  TTNews-Prefix.pch
+//  TTNews
+//
+//  Created by zjibo on 2019/2/13.
+//  Copyright (c) 2019 AlexZhang. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <GoldBaseFramework/GoldBaseFramework.h>
+#import <GoldLogFramework/GoldLogFramework.h>
+#import <ZANetwork/ZANetwork.h>
+#import <ZARPC/ZARPC.h>
+#import <MMobileFramework/MMobileFramework.h>
+#import <MDebugFramework/MDebugFramework.h>
+#import <MRouterFramework/MRouterFramework.h>
+#import <MVendorFramework/MVendorFramework.h>
+#import <TTChannel/TTChannel.h>
+#import <MCommonUI/MCommonUI.h>
+
+#define TT_IID @"17769976909"
+#define TT_DEVICE_ID @"41312231473"
+
+#endif
