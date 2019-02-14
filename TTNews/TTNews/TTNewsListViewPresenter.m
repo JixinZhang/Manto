@@ -9,6 +9,7 @@
 #import "TTNewsListViewPresenter.h"
 #import "TTNewsListRequest.h"
 #import "TTNewsListResponse.h"
+#import "TTLayoutGroupPicCell.h"
 
 @interface TTNewsListViewPresenter()<UITableViewDelegate, UITableViewDataSource>
 
@@ -21,6 +22,7 @@
 @implementation TTNewsListViewPresenter
 @synthesize channelUserInfo = _channelUserInfo;
 
+static NSString *groupPicCellIdentifier = @"TTLayoutGroupPicCell";
 
 #pragma mark - TTChannelViewPresenterProtocol
 
@@ -50,7 +52,14 @@
     
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.separatorColor = [UIColor getColor:@"E6E6E6"];
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    self.tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"TTNewsListCell"];
+    
+    NSBundle *TTNewsBundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"TTNewsBundle.bundle"]];
+
+    [self.tableView registerNib:[UINib nibWithNibName:@"TTLayoutGroupPicCell" bundle:TTNewsBundle] forCellReuseIdentifier:groupPicCellIdentifier];
     [self configTableViewPullUpDown];
 }
 
@@ -146,18 +155,19 @@
     return self.listResponse.data.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 178;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TTNewsListCell" forIndexPath:indexPath];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TTNewsListCell"];
-    }
     TTNewsSummaryModel *model = [self.listResponse.data objectAtIndex:indexPath.row];
-    cell.textLabel.text = model.infoModel.title;
-    if (model.infoModel.image_list.count) {
-        TTNewsImageModel *imageMode = model.infoModel.image_list.firstObject;
-        [cell.imageView sd_setImageWithURL:[NSURL URLWithString:imageMode.url]];
+    TTLayoutGroupPicCell *groupPicCell = [tableView dequeueReusableCellWithIdentifier:groupPicCellIdentifier];
+    if (!groupPicCell) {
+        groupPicCell = [TTLayoutGroupPicCell createWithXib];
     }
-    return cell;
+    
+    [groupPicCell setContentWithModel:model.infoModel];    
+    return groupPicCell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

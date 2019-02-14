@@ -48,6 +48,12 @@
 		78F4B22E2215534900724E69 /* TTNewsListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4B22C2215534900724E69 /* TTNewsListRequest.m */; };
 		78F4B23122156A0F00724E69 /* TTNewsListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4B22F22156A0F00724E69 /* TTNewsListResponse.h */; };
 		78F4B23222156A0F00724E69 /* TTNewsListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4B23022156A0F00724E69 /* TTNewsListResponse.m */; };
+		78F4B238221581EE00724E69 /* TTLayoutRightPicCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4B235221581EE00724E69 /* TTLayoutRightPicCell.h */; };
+		78F4B239221581EE00724E69 /* TTLayoutRightPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4B236221581EE00724E69 /* TTLayoutRightPicCell.m */; };
+		78F4B23E2215820900724E69 /* TTLayoutGroupPicCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4B23B2215820900724E69 /* TTLayoutGroupPicCell.h */; };
+		78F4B23F2215820900724E69 /* TTLayoutGroupPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4B23C2215820900724E69 /* TTLayoutGroupPicCell.m */; };
+		78F4B24B2215B15A00724E69 /* TTLayoutRightPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F4B237221581EE00724E69 /* TTLayoutRightPicCell.xib */; };
+		78F4B24C2215B15A00724E69 /* TTLayoutGroupPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F4B23D2215820900724E69 /* TTLayoutGroupPicCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +86,14 @@
 		78F4B22C2215534900724E69 /* TTNewsListRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNewsListRequest.m; sourceTree = "<group>"; };
 		78F4B22F22156A0F00724E69 /* TTNewsListResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTNewsListResponse.h; sourceTree = "<group>"; };
 		78F4B23022156A0F00724E69 /* TTNewsListResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNewsListResponse.m; sourceTree = "<group>"; };
+		78F4B235221581EE00724E69 /* TTLayoutRightPicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLayoutRightPicCell.h; sourceTree = "<group>"; };
+		78F4B236221581EE00724E69 /* TTLayoutRightPicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLayoutRightPicCell.m; sourceTree = "<group>"; };
+		78F4B237221581EE00724E69 /* TTLayoutRightPicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTLayoutRightPicCell.xib; sourceTree = "<group>"; };
+		78F4B23B2215820900724E69 /* TTLayoutGroupPicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLayoutGroupPicCell.h; sourceTree = "<group>"; };
+		78F4B23C2215820900724E69 /* TTLayoutGroupPicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLayoutGroupPicCell.m; sourceTree = "<group>"; };
+		78F4B23D2215820900724E69 /* TTLayoutGroupPicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTLayoutGroupPicCell.xib; sourceTree = "<group>"; };
+		78F4B2452215B14800724E69 /* TTNewsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTNewsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F4B2472215B14900724E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78F4B2422215B14800724E69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				78BA64B622140B4B00F20332 /* TTNews */,
+				78F4B2462215B14800724E69 /* TTNewsBundle */,
 				78BA64B222140B4B00F20332 /* Products */,
 				78F4B1F32215141200724E69 /* Frameworks */,
 			);
@@ -116,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				78BA64B122140B4B00F20332 /* TTNews.framework */,
+				78F4B2452215B14800724E69 /* TTNewsBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +259,12 @@
 		78F4B2242215502800724E69 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78F4B235221581EE00724E69 /* TTLayoutRightPicCell.h */,
+				78F4B236221581EE00724E69 /* TTLayoutRightPicCell.m */,
+				78F4B237221581EE00724E69 /* TTLayoutRightPicCell.xib */,
+				78F4B23B2215820900724E69 /* TTLayoutGroupPicCell.h */,
+				78F4B23C2215820900724E69 /* TTLayoutGroupPicCell.m */,
+				78F4B23D2215820900724E69 /* TTLayoutGroupPicCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -258,6 +287,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		78F4B2462215B14800724E69 /* TTNewsBundle */ = {
+			isa = PBXGroup;
+			children = (
+				78F4B2472215B14900724E69 /* Info.plist */,
+			);
+			path = TTNewsBundle;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -266,11 +303,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F4B22D2215534900724E69 /* TTNewsListRequest.h in Headers */,
+				78F4B23E2215820900724E69 /* TTLayoutGroupPicCell.h in Headers */,
 				78F4B2172215313D00724E69 /* TTNewsViewController.h in Headers */,
 				78F4B23122156A0F00724E69 /* TTNewsListResponse.h in Headers */,
 				78F4B2292215506100724E69 /* TTNewsListViewPresenter.h in Headers */,
 				78BA64BA22140B4B00F20332 /* TTNews.h in Headers */,
 				78F4B220221544EA00724E69 /* TTTopBar.h in Headers */,
+				78F4B238221581EE00724E69 /* TTLayoutRightPicCell.h in Headers */,
 				78F4B213221515CE00724E69 /* TTNewsChannelResponse.h in Headers */,
 				78F4B20F2215151E00724E69 /* TTNewsChannelRequest.h in Headers */,
 			);
@@ -297,6 +336,24 @@
 			productReference = 78BA64B122140B4B00F20332 /* TTNews.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		78F4B2442215B14800724E69 /* TTNewsBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F4B2482215B14900724E69 /* Build configuration list for PBXNativeTarget "TTNewsBundle" */;
+			buildPhases = (
+				78F4B2412215B14800724E69 /* Sources */,
+				78F4B2422215B14800724E69 /* Frameworks */,
+				78F4B2432215B14800724E69 /* Resources */,
+				78F4B2502215B6FD00724E69 /* Copy the framework to root product category */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTNewsBundle;
+			productName = TTNewsBundle;
+			productReference = 78F4B2452215B14800724E69 /* TTNewsBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,6 +367,9 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					78BA64B522140B4B00F20332 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					78F4B2442215B14800724E69 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -328,6 +388,7 @@
 			targets = (
 				78BA64B022140B4B00F20332 /* TTNews */,
 				78BA64B522140B4B00F20332 /* TTNewsAggregate */,
+				78F4B2442215B14800724E69 /* TTNewsBundle */,
 			);
 		};
 /* End PBXProject section */
@@ -338,6 +399,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				78BA64B822140B4B00F20332 /* .h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F4B2432215B14800724E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F4B24C2215B15A00724E69 /* TTLayoutGroupPicCell.xib in Resources */,
+				78F4B24B2215B15A00724E69 /* TTLayoutRightPicCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +448,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Copy the framework to root product category\nFMK_NAME=${PROJECT_NAME}\nINSTALL_SOURCE_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.framework\n# Cleaning the oldest.\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nopen \"${INSTALL_TARGET_DIR}\"";
+			shellScript = "# Copy the framework to root product category\nFMK_NAME=${PROJECT_NAME}\nINSTALL_SOURCE_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.framework\n# Cleaning the oldest.\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nopen \"${INSTALL_TARGET_DIR}\"\n";
+		};
+		78F4B2502215B6FD00724E69 /* Copy the framework to root product category */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy the framework to root product category";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy the framework to root product category\nFMK_NAME=${PROJECT_NAME}\nINSTALL_SOURCE_DIR=${SRCROOT}/Products/${FMK_NAME}.bundle\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.bundle\n# Cleaning the oldest.\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nopen \"${INSTALL_TARGET_DIR}/..\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -388,12 +476,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F4B22A2215506100724E69 /* TTNewsListViewPresenter.m in Sources */,
+				78F4B239221581EE00724E69 /* TTLayoutRightPicCell.m in Sources */,
 				78F4B2102215151E00724E69 /* TTNewsChannelRequest.m in Sources */,
 				78F4B23222156A0F00724E69 /* TTNewsListResponse.m in Sources */,
+				78F4B23F2215820900724E69 /* TTLayoutGroupPicCell.m in Sources */,
 				78F4B221221544EA00724E69 /* TTTopBar.m in Sources */,
 				78F4B214221515CE00724E69 /* TTNewsChannelResponse.m in Sources */,
 				78F4B22E2215534900724E69 /* TTNewsListRequest.m in Sources */,
 				78F4B2182215313D00724E69 /* TTNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F4B2412215B14800724E69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +709,40 @@
 			};
 			name = Release;
 		};
+		78F4B2492215B14900724E69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TTNewsBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTNewsBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		78F4B24A2215B14900724E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TTNewsBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = app.jixin.TTNewsBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -638,6 +769,15 @@
 			buildConfigurations = (
 				78BA64C422140B4B00F20332 /* Debug */,
 				78BA64C522140B4B00F20332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F4B2482215B14900724E69 /* Build configuration list for PBXNativeTarget "TTNewsBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F4B2492215B14900724E69 /* Debug */,
+				78F4B24A2215B14900724E69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

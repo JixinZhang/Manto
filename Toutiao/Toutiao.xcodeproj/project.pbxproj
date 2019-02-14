@@ -53,6 +53,7 @@
 		78F4B1F22215132200724E69 /* TTChannel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F4B1F12215132100724E69 /* TTChannel.framework */; };
 		78F4B21B2215395D00724E69 /* TTNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F4B21A2215395D00724E69 /* TTNews.framework */; };
 		78F4B23422157B4000724E69 /* MCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F4B23322157B4000724E69 /* MCommonUI.framework */; };
+		78F4B24F2215B20600724E69 /* TTNewsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78F4B24E2215B20600724E69 /* TTNewsBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		78F4B1F12215132100724E69 /* TTChannel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTChannel.framework; path = ../Products/TTChannel.framework; sourceTree = "<group>"; };
 		78F4B21A2215395D00724E69 /* TTNews.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTNews.framework; path = ../Products/TTNews.framework; sourceTree = "<group>"; };
 		78F4B23322157B4000724E69 /* MCommonUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MCommonUI.framework; path = ../Products/MCommonUI.framework; sourceTree = "<group>"; };
+		78F4B24E2215B20600724E69 /* TTNewsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TTNewsBundle.bundle; path = ../../../Products/TTNewsBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				78C906642202A133006D4B54 /* Config */,
 				78C906532202A091006D4B54 /* Log */,
 				78C906522202A05A006D4B54 /* Resource */,
+				78F4B24D2215B1E200724E69 /* Bundles */,
 				78C906512202A051006D4B54 /* Delegate */,
 				78C906752202BF5F006D4B54 /* Supporting Files */,
 				78879D6721FAF1F70065B221 /* Assets.xcassets */,
@@ -363,6 +366,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		78F4B24D2215B1E200724E69 /* Bundles */ = {
+			isa = PBXGroup;
+			children = (
+				78F4B24E2215B20600724E69 /* TTNewsBundle.bundle */,
+			);
+			path = Bundles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -467,6 +478,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78879D6B21FAF1F70065B221 /* LaunchScreen.storyboard in Resources */,
+				78F4B24F2215B20600724E69 /* TTNewsBundle.bundle in Resources */,
 				78C9067B2202C031006D4B54 /* MobileRuntime.plist in Resources */,
 				78879D6821FAF1F70065B221 /* Assets.xcassets in Resources */,
 				78C906802202C054006D4B54 /* wscnNight.json in Resources */,
