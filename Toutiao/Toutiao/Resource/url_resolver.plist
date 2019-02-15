@@ -33,7 +33,7 @@
 		</dict>
 		<dict>
 			<key>class</key>
-			<string>#MDefaultWebViewController</string>
+			<string>#TTBaseWebViewController</string>
 			<key>name</key>
 			<string>default</string>
 			<key>ext</key>

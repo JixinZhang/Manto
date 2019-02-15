@@ -42,7 +42,7 @@
 }
 
 - (void)setAccessoryViews:(NSArray *)accessoryViews {
-    if (!_accessoryViews != accessoryViews) {
+    if (_accessoryViews != accessoryViews) {
         [_accessoryViews makeObjectsPerformSelector:@selector(removeFromSuperview)];
         _accessoryViews = accessoryViews;
         for (UIView *view in accessoryViews) {

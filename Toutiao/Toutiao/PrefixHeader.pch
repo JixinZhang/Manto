@@ -31,6 +31,7 @@
 #import <TTChannel/TTChannel.h>
 #import <TTNews/TTNews.h>
 #import <MCommonUI/MCommonUI.h>
+#import <TTWebView/TTWebView.h>
 #endif
 
 #endif /* PrefixHeader_pch */

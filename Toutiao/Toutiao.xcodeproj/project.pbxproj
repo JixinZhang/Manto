@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7814D0D1221689E300B27C41 /* TTWebView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7814D0D0221689E300B27C41 /* TTWebView.framework */; };
 		78879D6621FAF1F40065B221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6421FAF1F40065B221 /* Main.storyboard */; };
 		78879D6821FAF1F70065B221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6721FAF1F70065B221 /* Assets.xcassets */; };
 		78879D6B21FAF1F70065B221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78879D6921FAF1F70065B221 /* LaunchScreen.storyboard */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7814D0D0221689E300B27C41 /* TTWebView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TTWebView.framework; path = ../Products/TTWebView.framework; sourceTree = "<group>"; };
 		78879D5B21FAF1F40065B221 /* TouTiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouTiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78879D6521FAF1F40065B221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78879D6721FAF1F70065B221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7814D0D1221689E300B27C41 /* TTWebView.framework in Frameworks */,
 				78F4B23422157B4000724E69 /* MCommonUI.framework in Frameworks */,
 				78F4B21B2215395D00724E69 /* TTNews.framework in Frameworks */,
 				78F4B1F22215132200724E69 /* TTChannel.framework in Frameworks */,
@@ -253,6 +256,7 @@
 		78879D9021FAFF690065B221 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7814D0D0221689E300B27C41 /* TTWebView.framework */,
 				78F4B23322157B4000724E69 /* MCommonUI.framework */,
 				78F4B21A2215395D00724E69 /* TTNews.framework */,
 				78F4B1F12215132100724E69 /* TTChannel.framework */,

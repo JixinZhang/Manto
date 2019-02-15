@@ -10,6 +10,7 @@
 #import "TTNewsListRequest.h"
 #import "TTNewsListResponse.h"
 #import "TTLayoutGroupPicCell.h"
+#import "TTLayoutRightPicCell.h"
 
 @interface TTNewsListViewPresenter()<UITableViewDelegate, UITableViewDataSource>
 
@@ -23,6 +24,7 @@
 @synthesize channelUserInfo = _channelUserInfo;
 
 static NSString *groupPicCellIdentifier = @"TTLayoutGroupPicCell";
+static NSString *rightPicCellIdentifier = @"TTLayoutRightPicCell";
 
 #pragma mark - TTChannelViewPresenterProtocol
 
@@ -60,6 +62,7 @@ static NSString *groupPicCellIdentifier = @"TTLayoutGroupPicCell";
     NSBundle *TTNewsBundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"TTNewsBundle.bundle"]];
 
     [self.tableView registerNib:[UINib nibWithNibName:@"TTLayoutGroupPicCell" bundle:TTNewsBundle] forCellReuseIdentifier:groupPicCellIdentifier];
+    [self.tableView registerNib:[UINib nibWithNibName:@"TTLayoutRightPicCell" bundle:TTNewsBundle] forCellReuseIdentifier:rightPicCellIdentifier];
     [self configTableViewPullUpDown];
 }
 
@@ -156,18 +159,29 @@ static NSString *groupPicCellIdentifier = @"TTLayoutGroupPicCell";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 178;
+    TTNewsSummaryModel *model = [self.listResponse.data objectAtIndex:indexPath.row];
+    if (model.infoModel.image_list.count == 3) {
+        return 178;
+    } else {
+        return 124;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     TTNewsSummaryModel *model = [self.listResponse.data objectAtIndex:indexPath.row];
-    TTLayoutGroupPicCell *groupPicCell = [tableView dequeueReusableCellWithIdentifier:groupPicCellIdentifier];
-    if (!groupPicCell) {
-        groupPicCell = [TTLayoutGroupPicCell createWithXib];
-    }
     
-    [groupPicCell setContentWithModel:model.infoModel];    
-    return groupPicCell;
+    UITableViewCell *cell = nil;
+    if (model.infoModel.image_list.count == 3) {
+        TTLayoutGroupPicCell *groupPicCell = [tableView dequeueReusableCellWithIdentifier:groupPicCellIdentifier];
+        [groupPicCell setContentWithModel:model.infoModel];
+        cell = groupPicCell;
+        
+    } else {
+        TTLayoutRightPicCell *rightPicCell = [tableView dequeueReusableCellWithIdentifier:rightPicCellIdentifier];
+        [rightPicCell setContentWithModel:model.infoModel];
+        cell = rightPicCell;
+    }
+    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

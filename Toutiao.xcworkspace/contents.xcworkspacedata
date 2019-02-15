@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TTWebView/TTWebView.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:TTChannel/TTChannel.xcodeproj">
    </FileRef>
    <FileRef

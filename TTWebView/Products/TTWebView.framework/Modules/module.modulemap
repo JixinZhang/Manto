@@ -1,0 +1,6 @@
+framework module TTWebView {
+  umbrella header "TTWebView.h"
+
+  export *
+  module * { export * }
+}

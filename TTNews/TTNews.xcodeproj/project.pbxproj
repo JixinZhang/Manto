@@ -466,7 +466,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Copy the framework to root product category\nFMK_NAME=${PROJECT_NAME}\nINSTALL_SOURCE_DIR=${SRCROOT}/Products/${FMK_NAME}.bundle\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.bundle\n# Cleaning the oldest.\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nopen \"${INSTALL_TARGET_DIR}/..\"\n";
+			shellScript = "# Copy the framework to root product category\nFMK_NAME=${TARGET_NAME}\nWRK_DIR=${BUILT_PRODUCTS_DIR}\nINSTALL_SOURCE_DIR=${WRK_DIR}/${FMK_NAME}.bundle\nINSTALL_TARGET_DIR=${SRCROOT}/../Products/${FMK_NAME}.bundle\n#open \"${WRK_DIR}/\"\n#open \"${INSTALL_SOURCE_DIR}/..\"\n\nif [ -d \"${INSTALL_TARGET_DIR}\" ]\nthen\nrm -rf \"${INSTALL_TARGET_DIR}\"\nfi\nmkdir -p \"${INSTALL_TARGET_DIR}\"\ncp -R \"${INSTALL_SOURCE_DIR}/\" \"${INSTALL_TARGET_DIR}/\"\nrm -rf \"${INSTALL_TARGET_DIR}/_CodeSignature\"\nrm -rf \"${INSTALL_TARGET_DIR}/Info.plist\"\n#open \"${INSTALL_TARGET_DIR}/..\"\n\n\n\n\n\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

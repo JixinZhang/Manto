@@ -52,16 +52,9 @@
         [self.leftImageView sd_setImageWithURL:[NSURL URLWithString:leftModel.url]];
         [self.middleImageView sd_setImageWithURL:[NSURL URLWithString:middleModel.url]];
         [self.rightImageView sd_setImageWithURL:[NSURL URLWithString:rightModel.url]];
+    } else {
+        self.leftImageView.image = self.middleImageView.image = self.rightImageView.image = nil;
     }
-//    __weak __typeof__ (self)weakSelf = self;
-//    [self.leftImageView sd_setImageWithPreviousCachedImageWithURL:[NSURL URLWithString:leftModel.url]
-//                                   placeholderImage:nil
-//                                            options:SDWebImageRetryFailed | SDWebImageContinueInBackground | SDWebImageLowPriority
-//                                           progress:nil
-//                                          completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
-//     {
-//         weakSelf.leftImageView.image = image;
-//     }];
 }
 
 @end
