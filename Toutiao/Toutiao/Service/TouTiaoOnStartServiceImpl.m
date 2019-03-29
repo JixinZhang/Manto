@@ -22,6 +22,7 @@
         [self __configCookie];
         [self __configDB];
         [self configTestDebugExchange];
+        [self changeLNRefreshHeaderAnimationType];
     });
     
     [[BGTaskDispatcher taskDefault] addTaskIdentifier:@"__configRouter" task:^{
@@ -121,6 +122,19 @@
 - (void)enterForegroundNotification:(NSNotification *) norification {
     ZARPCTrafficMonitor *trafficMonitor = [ZARPCTrafficMonitor sharedInstance];
     [trafficMonitor updateNetData];
+}
+
+- (void)changeLNRefreshHeaderAnimationType {
+    
+    NSMutableArray *idleImages = [NSMutableArray array];
+    for (NSUInteger i = 0; i < 16; i++) {
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"dropdown_loading_0%zd", i]];
+        [idleImages addObject:image];
+    }
+    [LNRefreshHandler setAllHeaderAnimatorStateImages:idleImages state:LNRefreshState_Normal];
+    [LNRefreshHandler setAllHeaderAnimatorStateImages:idleImages state:LNRefreshState_Refreshing];
+    [LNRefreshHandler changeAllHeaderAnimatorType:LNRefreshHeaderType_GIF bgImage:nil incremental:60];
+    
 }
 
 @end

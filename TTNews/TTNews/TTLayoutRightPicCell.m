@@ -51,7 +51,7 @@
     self.sourceLabel.text = model.media_name;
     
     TTNewsImageModel *leftModel = [model.image_list objectAtIndex:0];
-    [self.contentImageView sd_setImageWithURL:[NSURL URLWithString:leftModel.url]];
+    [self.contentImageView sd_setImageWithURL:[NSURL URLWithString:leftModel.url] placeholderImage:[UIImage imageNamed:@"not_found_loading_226x119_"]];
 }
 
 @end

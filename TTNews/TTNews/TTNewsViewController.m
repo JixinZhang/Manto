@@ -34,11 +34,11 @@
     self.dataSource = self;
     self.delegate = self;
     
+    [self.view addSubview:self.channelContentsView];
     [self.view addSubview:self.topBar];
     [self.sectionView setViewFrameY:CGRectGetMaxY(self.topBar.frame)];
     self.sectionView.observerView = self.channelContentsView;
     [self.view addSubview:self.sectionView];
-    [self.view addSubview:self.channelContentsView];
     
     self.view.backgroundColor = [UIColor whiteColor];
 }
