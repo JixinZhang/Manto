@@ -7,12 +7,12 @@
 		<key>TTNews.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>16</integer>
 		</dict>
 		<key>TTNewsAggregate.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>17</integer>
 		</dict>
 		<key>TTNewsBundle.xcscheme_^#shared#^_</key>
 		<dict>

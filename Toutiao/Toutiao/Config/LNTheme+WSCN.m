@@ -14,7 +14,7 @@
     NSString *path1 = [[NSBundle mainBundle] pathForResource:@"wscnDay" ofType:@"json"];
     NSString *path2 = [[NSBundle mainBundle] pathForResource:@"wscnNight" ofType:@"json"];
     [[self class] addTheme:LN_THEME_DEFAULT_NAME forPath:path1];
-    [[self class] addTheme:@"night" forPath:path2];
+    [[self class] addTheme:@"night" forPath:path2]; 
 }
 
 @end
