@@ -39,7 +39,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"title";
     [self initValue];
     [self initView];
 //    [self addObservers];
@@ -151,6 +150,7 @@
 
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
     [self.view.indicatorView stopAnimating];
+    self.title = webView.title;
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
@@ -160,7 +160,7 @@
     
     CGPoint offset = scrollView.contentOffset;
     CGFloat offsetY = offset.y;
-    NSLog(@"offsetY = %.2f", offsetY);
+//    NSLog(@"offsetY = %.2f", offsetY);
     
     
     CGFloat webViewHeight = CGRectGetHeight(self.wkWebView.frame);
